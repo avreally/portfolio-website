@@ -1,0 +1,59 @@
+[
+  {
+    "id": "00",
+    "name": "To Do List",
+    "about": "A to do list project which was created during studying at Hyper Island. The app allows user to add and delete tasks and lists, mark tasks as important and completed. All data is stored in Local Storage.",
+    "imgUrl": "",
+    "websiteUrl": "https://a-to-do-list-project.netlify.app/",
+    "githubUrl": "https://github.com/avreally/hyperisland-project-1-todo",
+    "stack": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Responsive layout powered by Grid and Flexbox"
+    ]
+  },
+  {
+    "id": "01",
+    "name": "Phonebook",
+    "about": "The app allows user to add name and phone number to the phonebook, search through them, and delete them.",
+    "imgUrl": "",
+    "websiteUrl": "",
+    "githubUrl": "https://github.com/avreally/phonebook",
+    "stack": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Responsive layout powered by Flexbox"
+    ]
+  },
+  {
+    "id": "02",
+    "name": "Music Box",
+    "about": "An app that uses Genius API to search for songs.",
+    "imgUrl": "",
+    "websiteUrl": "https://music-box-avreally.herokuapp.com/",
+    "githubUrl": "https://github.com/avreally/music-box",
+    "stack": [
+      "React.js",
+      "JavaScript",
+      "Node.js",
+      "Axios",
+      "Express",
+      "Heroku",
+      "HTML",
+      "CSS",
+      "Responsive layout powered by Flexbox"
+    ]
+  },
+  {
+    "id": "03",
+    "name": "Streaming App",
+    "about": "",
+    "imgUrl": "",
+    "websiteUrl": "",
+    "githubUrl": "",
+    "stack": []
+  }
+]
