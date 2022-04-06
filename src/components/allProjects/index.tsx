@@ -9,7 +9,7 @@ type AllProjectsProps = {
 const allProjects = ({ allProjectsData }: AllProjectsProps) => {
   console.log("allProjectsData", allProjectsData);
   return (
-    <div>
+    <div className="allProjects">
       <h1>All Projects:</h1>
       {allProjectsData.map((project) => (
         <Project key={project.id} project={project} />

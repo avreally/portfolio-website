@@ -16,7 +16,7 @@ type ProjectProps = {
 
 const Project = ({ project }: ProjectProps) => {
   return (
-    <div className="Project">
+    <div className="project">
       <ProjectImage imgUrl={project.imgUrl} />
       <ProjectInfo project={project} />
     </div>

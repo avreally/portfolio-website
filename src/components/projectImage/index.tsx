@@ -7,8 +7,7 @@ type ProjectImageProps = {
 const ProjectImage = ({ imgUrl }: ProjectImageProps) => {
   return (
     <div>
-      Project Image
-      <img src={imgUrl} alt="Project Preview" />
+      <img className="projectImg" src={imgUrl} alt="Project Preview" />
     </div>
   );
 };

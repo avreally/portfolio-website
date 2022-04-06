@@ -7,9 +7,9 @@ type ProjectInfoProps = {
 
 const ProjectInfo = ({ project }: ProjectInfoProps) => {
   return (
-    <div>
-      Project Info
-      {project.about} {project.name}
+    <div className="projectInfo">
+      <h2>{project.name}</h2>
+      <p>{project.about}</p>
     </div>
   );
 };
