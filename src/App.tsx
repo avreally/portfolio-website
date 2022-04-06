@@ -25,7 +25,7 @@ const App = () => {
   console.log(data);
 
   return (
-    <div className="App">
+    <div className="app">
       {data !== undefined ? <AllProjects allProjectsData={data} /> : null}
     </div>
   );

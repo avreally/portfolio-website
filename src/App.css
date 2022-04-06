@@ -17,22 +17,29 @@ body {
   margin: 0;
   padding: 0;
   background: #30005e;
-  display: flex;
+  /*display: flex;*/
   /*justify-content: center;*/
   /*align-items: center;*/
 }
 
 html,
 body {
-  height: 100%;
+  /*height: 100%;*/
+
 }
 
 #root {
-  width: 100%;
-  height: 100%;
+  /*width: 100%;*/
+  /*height: 100%;*/
   margin: 0;
   padding: 0;
-  display: flex;
+  /*display: flex;*/
   /*justify-content: center;*/
   /*align-items: center;*/
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

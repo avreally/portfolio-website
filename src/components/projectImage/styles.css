@@ -1,3 +1,9 @@
+.projectImgWrapper {
+  display: flex;
+  /*flex-basis: 40%;*/
+
+}
+
 .projectImg {
   max-width: 20rem;
 }

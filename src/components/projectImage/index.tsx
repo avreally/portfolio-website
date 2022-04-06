@@ -6,7 +6,7 @@ type ProjectImageProps = {
 
 const ProjectImage = ({ imgUrl }: ProjectImageProps) => {
   return (
-    <div>
+    <div className="projectImgWrapper">
       <img className="projectImg" src={imgUrl} alt="Project Preview" />
     </div>
   );

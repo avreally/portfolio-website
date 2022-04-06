@@ -1,12 +1,14 @@
 type ProjectType = {
-  key: string;
+  // key: string;
   id: string;
   name: string;
   about: string;
   imgUrl: string;
   websiteUrl: string;
   githubUrl: string;
-  stack: string[];
+  stack: StackElement[];
 };
 
-export type { ProjectType };
+type StackElement = string;
+
+export type { ProjectType, StackElement };

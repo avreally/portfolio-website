@@ -11,9 +11,9 @@ const allProjects = ({ allProjectsData }: AllProjectsProps) => {
   return (
     <div className="allProjects">
       <h1>All Projects:</h1>
-      {allProjectsData.map((project) => (
-        <Project key={project.id} project={project} />
-      ))}
+      {allProjectsData
+        .map((project) => <Project key={project.id} project={project} />)
+        .reverse()}
     </div>
   );
 };

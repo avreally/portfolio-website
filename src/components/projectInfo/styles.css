@@ -1,5 +1,20 @@
 .projectInfo {
   display: flex;
   flex-direction: column;
-  max-width: 40rem;
+  /*max-width: 40rem;*/
+  /*flex-basis: 60%;*/
+  width: 100%;
+}
+
+.stack {
+  max-height: 6rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  column-gap: 3rem;
+}
+
+.stackElement {
+  max-width: 8rem;
 }

@@ -6,12 +6,7 @@
     "imgUrl": "../images/to-do-list.svg",
     "websiteUrl": "https://a-to-do-list-project.netlify.app/",
     "githubUrl": "https://github.com/avreally/hyperisland-project-1-todo",
-    "stack": [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive layout powered by Grid and Flexbox"
-    ]
+    "stack": ["JavaScript", "HTML", "CSS", "Grid", "Flexbox"]
   },
   {
     "id": "01",
@@ -20,13 +15,7 @@
     "imgUrl": "../images/phonebook.svg",
     "websiteUrl": "",
     "githubUrl": "https://github.com/avreally/phonebook",
-    "stack": [
-      "React.js",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive layout powered by Flexbox"
-    ]
+    "stack": ["React.js", "JavaScript", "HTML", "CSS", "Flexbox"]
   },
   {
     "id": "02",
@@ -44,7 +33,7 @@
       "Heroku",
       "HTML",
       "CSS",
-      "Responsive layout powered by Flexbox"
+      "Flexbox"
     ]
   }
 ]
