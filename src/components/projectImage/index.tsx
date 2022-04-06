@@ -1,13 +1,16 @@
-import './styles.css'
+import "./styles.css";
 
-const ProjectImage = () => {
+type ProjectImageProps = {
+  imgUrl: string;
+};
 
+const ProjectImage = ({ imgUrl }: ProjectImageProps) => {
   return (
     <div>
       Project Image
+      <img src={imgUrl} alt="Project Preview" />
     </div>
-  )
+  );
+};
 
-}
-
-export default ProjectImage
+export default ProjectImage;

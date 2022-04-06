@@ -46,14 +46,5 @@
       "CSS",
       "Responsive layout powered by Flexbox"
     ]
-  },
-  {
-    "id": "03",
-    "name": "Streaming App",
-    "about": "",
-    "imgUrl": "",
-    "websiteUrl": "",
-    "githubUrl": "",
-    "stack": []
   }
 ]
