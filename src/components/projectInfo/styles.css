@@ -18,3 +18,9 @@
 .stackElement {
   max-width: 8rem;
 }
+
+.projectUrls {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}

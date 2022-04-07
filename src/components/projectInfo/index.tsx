@@ -12,17 +12,27 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
       <p>{project.about}</p>
       <ul className="stack">
         {project.stack.map((element) => (
-          <li key={project.id} className="stackElement">
+          <li key={element} className="stackElement">
             {element}
           </li>
         ))}
       </ul>
-      <a target="_blank" rel="noopener noreferrer" href={project.websiteUrl}>
-        Website
-      </a>
-      <a target="_blank" rel="noopener noreferrer" href={project.githubUrl}>
-        GitHub
-      </a>
+      <div className="projectUrls">
+        <p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={project.websiteUrl}
+          >
+            Website
+          </a>
+        </p>
+        <p>
+          <a target="_blank" rel="noopener noreferrer" href={project.githubUrl}>
+            GitHub
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

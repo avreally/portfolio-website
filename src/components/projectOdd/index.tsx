@@ -5,22 +5,15 @@ import { ProjectType } from "../../../types";
 
 type ProjectProps = {
   project: ProjectType;
-  // id: string;
-  // name: string;
-  // about: string;
-  // imgUrl: string;
-  // websiteUrl: string;
-  // githubUrl: string;
-  // stack: string[];
 };
 
-const Project = ({ project }: ProjectProps) => {
+const ProjectOdd = ({ project }: ProjectProps) => {
   return (
     <div className="project">
-      <ProjectImage imgUrl={project.imgUrl} />
       <ProjectInfo project={project} />
+      <ProjectImage imgUrl={project.imgUrl} />
     </div>
   );
 };
 
-export default Project;
+export default ProjectOdd;
