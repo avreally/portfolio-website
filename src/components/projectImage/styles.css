@@ -6,4 +6,12 @@
 
 .projectImg {
   max-width: 20rem;
+  transition: transform .3s;
+  border-radius: 50%;
+}
+
+.projectImg:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 3pt 2pt #e32ada;
+
 }

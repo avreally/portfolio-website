@@ -5,15 +5,16 @@ import { ProjectType } from "../../../types";
 
 type ProjectProps = {
   project: ProjectType;
+  imageAlign: "start" | "end";
 };
 
-const ProjectOdd = ({ project }: ProjectProps) => {
+const Project = ({ project, imageAlign }: ProjectProps) => {
   return (
-    <div className="project">
-      <ProjectInfo project={project} />
+    <div className={`project ${imageAlign === "end" ? "projectImageEnd" : ""}`}>
       <ProjectImage imgUrl={project.imgUrl} />
+      <ProjectInfo project={project} />
     </div>
   );
 };
 
-export default ProjectOdd;
+export default Project;

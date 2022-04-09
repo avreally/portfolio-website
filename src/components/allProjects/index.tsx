@@ -1,7 +1,6 @@
 import "./styles.css";
 import { ProjectType } from "../../../types";
-import ProjectEven from "../projectEven";
-import ProjectOdd from "../projectOdd";
+import Project from "../project";
 
 type AllProjectsProps = {
   allProjectsData: ProjectType[];
@@ -12,14 +11,14 @@ const allProjects = ({ allProjectsData }: AllProjectsProps) => {
     <div className="allProjects">
       <h1>All Projects:</h1>
       {allProjectsData
+        .reverse()
         .map((project) =>
           allProjectsData.indexOf(project) % 2 === 0 ? (
-            <ProjectEven key={project.id} project={project} />
+            <Project key={project.id} project={project} imageAlign="start" />
           ) : (
-            <ProjectOdd key={project.id} project={project} />
+            <Project key={project.id} project={project} imageAlign="end" />
           )
-        )
-        .reverse()}
+        )}
     </div>
   );
 };
