@@ -2,12 +2,15 @@ import "./styles.css";
 
 type ProjectImageProps = {
   imgUrl: string;
+  websiteUrl: string;
 };
 
-const ProjectImage = ({ imgUrl }: ProjectImageProps) => {
+const ProjectImage = ({ imgUrl, websiteUrl }: ProjectImageProps) => {
   return (
     <div className="projectImgWrapper">
-      <img className="projectImg" src={imgUrl} alt="Project Preview" />
+      <a target="_blank" rel="noopener noreferrer" href={websiteUrl}>
+        <img className="projectImg" src={imgUrl} alt="Project Preview" />
+      </a>
     </div>
   );
 };

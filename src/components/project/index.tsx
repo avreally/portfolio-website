@@ -11,7 +11,7 @@ type ProjectProps = {
 const Project = ({ project, imageAlign }: ProjectProps) => {
   return (
     <div className={`project ${imageAlign === "end" ? "projectImageEnd" : ""}`}>
-      <ProjectImage imgUrl={project.imgUrl} />
+      <ProjectImage imgUrl={project.imgUrl} websiteUrl={project.websiteUrl} />
       <ProjectInfo project={project} />
     </div>
   );
