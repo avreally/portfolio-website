@@ -25,8 +25,3 @@
   gap: 3rem;
 }
 
-.mouseGradient {
-  --x: 0;
-  --y: 0;
-  background: radial-gradient(circle at var(--x) var(--y), rgb(79, 20, 204) 0%, rgba(79, 20, 204, 0) calc(0% + 150px));
-}

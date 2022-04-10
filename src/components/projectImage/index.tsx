@@ -8,7 +8,12 @@ type ProjectImageProps = {
 const ProjectImage = ({ imgUrl, websiteUrl }: ProjectImageProps) => {
   return (
     <div className="projectImgWrapper">
-      <a target="_blank" rel="noopener noreferrer" href={websiteUrl}>
+      <a
+        className="projectImgUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+        href={websiteUrl}
+      >
         <img className="projectImg" src={imgUrl} alt="Project Preview" />
       </a>
     </div>
