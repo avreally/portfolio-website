@@ -7,10 +7,13 @@ type AllProjectsProps = {
 };
 
 const allProjects = ({ allProjectsData }: AllProjectsProps) => {
+  // const reversed = allProjectsData;
+  // console.log(allProjectsData, allProjectsData.reverse());
+  // console.log(reversed);
   return (
     <div className="allProjects">
       <h1>All Projects:</h1>
-      {allProjectsData
+      {[...allProjectsData]
         .reverse()
         .map((project) =>
           allProjectsData.indexOf(project) % 2 === 0 ? (

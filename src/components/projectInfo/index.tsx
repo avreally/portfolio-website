@@ -8,8 +8,8 @@ type ProjectInfoProps = {
 const ProjectInfo = ({ project }: ProjectInfoProps) => {
   return (
     <div className="projectInfo">
-      <h2>{project.name}</h2>
-      <p>{project.about}</p>
+      <h2 className="projectName">{project.name}</h2>
+      <p className="projectAbout">{project.about}</p>
       <ul className="stack">
         {project.stack.map((element) => (
           <li key={element} className="stackElement">
@@ -17,8 +17,8 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
           </li>
         ))}
       </ul>
-      <div className="projectUrls">
-        <p>
+      <div className="projectUrlsWrapper">
+        <p className="projectUrl">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
             Website
           </a>
         </p>
-        <p>
+        <p className="projectUrl">
           <a target="_blank" rel="noopener noreferrer" href={project.githubUrl}>
             GitHub
           </a>

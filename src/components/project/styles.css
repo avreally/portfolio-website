@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  /*gap: 24px;*/
   width: 100%;
   padding: 24px;
   border: 1px solid #da4fd3;
