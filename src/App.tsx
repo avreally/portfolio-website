@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import AllProjects from "./components/allProjects";
+import AboutMe from "./components/aboutMe";
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -16,6 +17,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <AboutMe />
       {data !== undefined ? <AllProjects allProjectsData={data} /> : null}
     </div>
   );

@@ -16,7 +16,20 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #30005e;
+  /*background-color: #30005e;*/
+  background: #03001e;
+  background: -webkit-linear-gradient(
+    to top,
+    /*!*#03001e,*! !*#7303c0,*! #ec38bc,*/ #03001e,
+    #7303c0,
+    #03001e
+  );
+  background: linear-gradient(
+    to top,
+    /*!*#03001e,*! !*#7303c0,*! #ec38bc,*/ #03001e,
+    #7303c0,
+    #03001e
+  );
   /*display: flex;*/
   /*justify-content: center;*/
   /*align-items: center;*/
@@ -41,4 +54,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
 }

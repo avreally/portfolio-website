@@ -1,0 +1,33 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 70%;
+  padding: 24px;
+}
+
+.profilePic {
+  max-width: 200px;
+  margin: 0 24px;
+  border-radius: 50%;
+  border: 1px solid #da4fd3;
+}
+
+.aboutMeInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+}
+
+.aboutMeTitle {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 4px 16px 4px;
+}
+
+.aboutMeSubtitle {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 16px 4px;
+}
