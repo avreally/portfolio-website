@@ -2,7 +2,7 @@ import "./styles.css";
 
 type ProjectImageProps = {
   imgUrl: string;
-  websiteUrl: string;
+  websiteUrl: string | null;
 };
 
 const ProjectImage = ({ imgUrl, websiteUrl }: ProjectImageProps) => {
@@ -12,7 +12,7 @@ const ProjectImage = ({ imgUrl, websiteUrl }: ProjectImageProps) => {
         className="projectImgUrl"
         target="_blank"
         rel="noopener noreferrer"
-        href={websiteUrl}
+        href={websiteUrl ? websiteUrl : undefined}
       >
         <img className="projectImg" src={imgUrl} alt="Project Preview" />
       </a>

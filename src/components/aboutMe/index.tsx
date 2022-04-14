@@ -1,4 +1,6 @@
 import "./styles.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import { RiExternalLinkLine } from "react-icons/ri";
 
 const AboutMe = () => {
   return (
@@ -9,10 +11,30 @@ const AboutMe = () => {
         alt="profile picture"
       />
       <div className="aboutMeInfo">
-        <h1 className="aboutMeTitle">Valeria Shadrina</h1>
-        <p className="aboutMeSubtitle">Front-end Developer</p>
-        <p>JavaScript, React.js, Node.js, TypeScript, UI/UX Design</p>
-        <p>You can find my individual and group projects below.</p>
+        <div>
+          <h1 className="aboutMeTitle">Valeria Shadrina</h1>
+          <p className="aboutMeSubtitle">Front-end Developer</p>
+          <p className="aboutMeText">Add text.</p>
+          <p className="aboutMeText">Add text.</p>
+        </div>
+        <p className="aboutMeUrlsWrapper">
+          <a
+            className="aboutMeUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/valeriashadrina/?locale=en_US"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            className="aboutMeUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/avreally"
+          >
+            <FaGithub />
+          </a>
+        </p>
       </div>
     </div>
   );

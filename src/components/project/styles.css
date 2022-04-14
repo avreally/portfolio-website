@@ -15,25 +15,25 @@
 }
 
 /* Original */
-.mouseGradient {
-  --x: 0;
-  --y: 0;
-  background: radial-gradient(
-      circle at var(--x) var(--y),
-      rgb(79, 20, 204) 0%,
-      rgba(79, 20, 204, 0) calc(0% + 150px)
-    ),
-    rgb(15, 8, 57);
-}
-
-/* Experimental */
 /*.mouseGradient {*/
 /*  --x: 0;*/
 /*  --y: 0;*/
 /*  background: radial-gradient(*/
 /*      circle at var(--x) var(--y),*/
-/*      rgb(255, 112, 217) 0%,*/
+/*      rgb(79, 20, 204) 0%,*/
 /*      rgba(79, 20, 204, 0) calc(0% + 150px)*/
 /*    ),*/
 /*    rgb(15, 8, 57);*/
 /*}*/
+
+/* Experimental */
+.mouseGradient {
+  --x: 0;
+  --y: 0;
+  background: radial-gradient(
+      circle at var(--x) var(--y),
+      rgb(5, 0, 175) 0%,
+      rgba(204, 20, 140, 0) calc(0% + 120px)
+    ),
+    rgb(15, 8, 57);
+}

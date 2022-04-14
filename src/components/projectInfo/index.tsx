@@ -1,5 +1,7 @@
 import "./styles.css";
 import { ProjectType } from "../../../types";
+import { FaGithub } from "react-icons/fa";
+import { RiExternalLinkLine } from "react-icons/ri";
 
 type ProjectInfoProps = {
   project: ProjectType;
@@ -18,18 +20,20 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
         ))}
       </ul>
       <div className="projectUrlsWrapper">
-        <p className="projectUrl">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href={project.websiteUrl}
-          >
-            Website
-          </a>
-        </p>
+        {project.websiteUrl ? (
+          <p className="projectUrl">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={project.websiteUrl}
+            >
+              <RiExternalLinkLine />
+            </a>
+          </p>
+        ) : null}
         <p className="projectUrl">
           <a target="_blank" rel="noopener noreferrer" href={project.githubUrl}>
-            GitHub
+            <FaGithub />
           </a>
         </p>
       </div>
