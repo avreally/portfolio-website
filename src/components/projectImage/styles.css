@@ -1,20 +1,20 @@
-.projectImgWrapper {
-  display: flex;
-  margin: 24px;
-}
-
 .projectImg {
-  max-width: 300px;
-  transition: transform 0.3s;
+  width: 100%;
   border-radius: 8px;
+  display: block;
 }
 
 .projectImg:hover {
-  transform: scale(1.05);
   box-shadow: 0 0 3pt 2pt #e32ada;
-  cursor: pointer;
 }
 
 .projectImgUrl {
+  display: block;
   border-radius: 8px;
+  transition: transform 0.3s;
+  transform: scale(0.93);
+}
+
+.projectImgUrl:hover {
+  transform: scale(0.98);
 }
