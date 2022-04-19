@@ -27,13 +27,13 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
               rel="noopener noreferrer"
               href={project.websiteUrl}
             >
-              <RiExternalLinkLine />
+              <RiExternalLinkLine size={30} />
             </a>
           </p>
         ) : null}
         <p className="projectUrl">
           <a target="_blank" rel="noopener noreferrer" href={project.githubUrl}>
-            <FaGithub />
+            <FaGithub size={30} />
           </a>
         </p>
       </div>

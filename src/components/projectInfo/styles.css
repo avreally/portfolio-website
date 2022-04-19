@@ -31,9 +31,12 @@
   list-style: none;
   padding: 8px;
   margin: 4px;
-  background-color: #500674;
+  /*background-color: #500674;*/
+  background-color: #151526;
   border-radius: 4px;
-  border: 1px solid #e32ada;
+  /*border: 1px solid #e32ada;*/
+  border: 1px solid rgba(119, 114, 255, 0.55);
+
   font-size: clamp(12px, 1.5vw, 16px);
 }
 

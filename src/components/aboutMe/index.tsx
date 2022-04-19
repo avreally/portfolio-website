@@ -35,7 +35,7 @@ const AboutMe = () => {
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/valeriashadrina/?locale=en_US"
           >
-            <FaLinkedin />
+            <FaLinkedin size={30} />
           </a>
           <a
             className="aboutMeUrl"
@@ -43,7 +43,7 @@ const AboutMe = () => {
             rel="noopener noreferrer"
             href="https://github.com/avreally"
           >
-            <FaGithub />
+            <FaGithub size={30} />
           </a>
         </p>
       </div>
