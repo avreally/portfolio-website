@@ -1,13 +1,11 @@
 .project {
   margin: 0;
-  /*background: rgb(15, 8, 57);*/
   background: #1b1b22;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   max-width: 1000px;
   padding: 24px;
-  /*border: 1px solid #da4fd3;*/
   border: 1px solid rgba(119, 114, 255, 0.55);
   border-radius: 8px;
   gap: clamp(24px, 3vw, 48px);
@@ -25,7 +23,7 @@
       rgb(40, 35, 168) 0%,
       rgba(40, 35, 168, 0) calc(0% + 120px)
     ),
-    /*rgb(15, 8, 57);*/ #1b1b22;
+    #1b1b22;
 }
 
 @media (max-width: 800px) {

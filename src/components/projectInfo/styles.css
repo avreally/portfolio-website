@@ -5,15 +5,11 @@
 }
 
 .projectName {
-  margin-block-start: 0;
-  margin-block-end: 0;
   margin: 16px 4px;
   font-size: clamp(24px, 3vw, 36px);
 }
 
 .projectAbout {
-  margin-block-start: 0;
-  margin-block-end: 0;
   margin: 16px 4px;
 }
 
@@ -22,8 +18,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin: 0;
   padding-inline-start: 0;
 }
 
@@ -31,12 +26,9 @@
   list-style: none;
   padding: 8px;
   margin: 4px;
-  /*background-color: #500674;*/
   background-color: #151526;
   border-radius: 4px;
-  /*border: 1px solid #e32ada;*/
   border: 1px solid rgba(119, 114, 255, 0.55);
-
   font-size: clamp(12px, 1.5vw, 16px);
 }
 
@@ -48,6 +40,5 @@
 
 .projectUrl {
   padding-right: 16px;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin: 0;
 }

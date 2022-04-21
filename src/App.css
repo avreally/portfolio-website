@@ -17,9 +17,6 @@ body {
   margin: 0;
   padding: 0;
   background: #25252f;
-  /*background: #03001e;*/
-  /*background: -webkit-linear-gradient(to top, #03001e, #7303c0, #03001e);*/
-  /*background: linear-gradient(to top, #03001e, #7303c0, #03001e);*/
 }
 
 #root {
