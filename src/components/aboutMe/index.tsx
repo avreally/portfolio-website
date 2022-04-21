@@ -16,16 +16,23 @@ const AboutMe = () => {
           <h1 className="aboutMeTitle">Valeria Shadrina</h1>
           <p className="aboutMeSubtitle">Front-end Developer</p>
           <p className="aboutMeText">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in.
+            An eager to learn and full of enthusiasm Frontend Developer. My
+            background in UX / UI Design, Project Management, sales, and Digital
+            Marketing helps me to better understand the processes of product
+            development in IT companies.
           </p>
           <p className="aboutMeText">
-            Voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            I prefer to work in companies where I will have the opportunity to
+            grow and improve my skills. I like solving complex problems and
+            challenging tasks, as I believe that helps my professional growth. I
+            enjoy working both in a team and individually, and I value trust and
+            open-mindedness.
+          </p>
+          <p className="aboutMeText">
+            Before I started learning programming languages I studied English,
+            Japanese, German, and Swedish. I enjoy retrowave, synthwave, and
+            electronic music, playing darts and video games, and I have a
+            growing interest in IoT and robotics.
           </p>
         </div>
         <p className="aboutMeUrlsWrapper">

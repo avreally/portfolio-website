@@ -13,6 +13,7 @@
 
 .projectImgUrl {
   display: block;
+  width: 90%;
   border-radius: 8px;
   transition: transform 0.3s;
   transform: scale(0.93);
@@ -20,4 +21,10 @@
 
 .projectImgUrl:hover {
   transform: scale(0.98);
+}
+
+@media (max-width: 800px) {
+  .projectImgUrl {
+    width: 100%;
+  }
 }
