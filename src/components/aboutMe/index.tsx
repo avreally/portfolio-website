@@ -28,12 +28,12 @@ const AboutMe = () => {
             enjoy working both in a team and individually, and I value trust and
             open-mindedness.
           </p>
-          <p className="aboutMeText">
-            Before I started learning programming languages I studied English,
-            Japanese, German, and Swedish. I enjoy retrowave, synthwave, and
-            electronic music, playing darts and video games, and I have a
-            growing interest in IoT and robotics.
-          </p>
+          {/*<p className="aboutMeText">*/}
+          {/*  Before I started learning programming languages I studied English,*/}
+          {/*  Japanese, German, and Swedish. I enjoy retrowave, synthwave, and*/}
+          {/*  electronic music, playing darts and video games, and I have a*/}
+          {/*  growing interest in IoT and robotics.*/}
+          {/*</p>*/}
         </div>
         <p className="aboutMeUrlsWrapper">
           <a

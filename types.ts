@@ -7,6 +7,7 @@ type ProjectType = {
   websiteUrl: string;
   githubUrl: string;
   stack: StackElement[];
+  notes: string;
 };
 
 type StackElement = string;
