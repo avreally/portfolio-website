@@ -6,7 +6,7 @@
     "imgUrl": "../images/phonebook.png",
     "websiteUrl": "",
     "githubUrl": "https://github.com/avreally/phonebook",
-    "stack": ["React.js", "JavaScript", "HTML", "CSS", "Flexbox"],
+    "stack": ["React", "JavaScript", "HTML", "CSS", "Flexbox"],
     "notes": "But I also enjoy creating  UI of different styles and colors."
   },
 
@@ -39,9 +39,9 @@
     "websiteUrl": "https://music-box-avreally.herokuapp.com/",
     "githubUrl": "https://github.com/avreally/music-box",
     "stack": [
-      "React.js",
+      "React",
       "JavaScript",
-      "Node.js",
+      "Node",
       "Axios",
       "Express",
       "Heroku",
@@ -59,9 +59,9 @@
     "websiteUrl": "",
     "githubUrl": "https://github.com/avreally/streaming-app",
     "stack": [
-      "React.js",
-      "Typescript",
-      "Node.js",
+      "React",
+      "TypeScript",
+      "Node",
       "Axios",
       "Express",
       "GitHub OAuth",
