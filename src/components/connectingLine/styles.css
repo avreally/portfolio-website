@@ -1,0 +1,44 @@
+.line {
+  width: 100%;
+  display: block;
+}
+
+.lineContainer {
+  margin: 0 clamp(50px, 20vw, 100px);
+  /*max-width: 600px;*/
+  align-self: flex-start;
+}
+
+.lineContainerAlignEnd {
+  align-self: flex-end;
+}
+
+.neonlightBlue {
+  /*-webkit-filter: drop-shadow(0 0 3px #58d9ff);*/
+  /*filter: drop-shadow(0 0 3px #58d9ff);*/
+  -webkit-filter: drop-shadow(0 0 3px #9794ffff);
+  filter: drop-shadow(0 0 3px #9794ffff);
+}
+
+.linePath {
+  /*stroke: #58d9ff;*/
+  /*stroke: #7772ff;*/
+  stroke: #9794ffff;
+  stroke-width: 4px;
+  stroke-dasharray: 14;
+  stroke-linecap: round;
+  animation: drawLine linear infinite alternate 1s;
+}
+
+@keyframes drawLine {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 10;
+  }
+}
+
+/* stroke="black" stroke-width="16" stroke-linecap="round" stroke-dasharray="1 70" */
+/*  animation: drawLine linear infinite alternate-reverse 10s;*/
+/*#7772ff*/
