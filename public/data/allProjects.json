@@ -1,19 +1,28 @@
 [
   {
     "id": "00",
+    "name": "Monster Project",
+    "about": "It is a tamagotchi-like browser game where you can feed a monster, so it doesn’t die.",
+    "imgUrl": "../images/monster-project.png",
+    "websiteUrl": "https://avreally.github.io/monster-project/",
+    "githubUrl": "https://github.com/avreally/monster-project",
+    "stack": ["JavaScript", "HTML", "SCSS", "Grid", "Flexbox"],
+    "notes": "I enjoy playing darts and video games myself, and this game I created with my teammates. I enjoy working both in a team and individually, and I value trust and open-mindedness."
+  },
+  {
+    "id": "01",
     "name": "Phonebook",
-    "about": "The app allows user to add name and phone number to the phonebook, search through them, and delete them.",
+    "about": "For example, for this Phonebook project I grabbed the colors from the image that I liked and then implemented them in the layout. Here you can add name and phone number to the phonebook, search through them, and delete them.",
     "imgUrl": "../images/phonebook.png",
     "websiteUrl": "",
     "githubUrl": "https://github.com/avreally/phonebook",
     "stack": ["React", "JavaScript", "HTML", "CSS", "Flexbox"],
     "notes": "But I also enjoy creating  UI of different styles and colors."
   },
-
   {
-    "id": "01",
+    "id": "02",
     "name": "To Do List",
-    "about": "The app allows user to add and delete tasks and lists, mark tasks as important and completed. All data is stored in Local Storage.",
+    "about": "It all started with this project, a To Do List, where you can add and delete tasks and lists, mark tasks as important and completed. All data is stored in Local Storage.",
     "imgUrl": "../images/to-do-list.png",
     "websiteUrl": "https://a-to-do-list-project.netlify.app/",
     "githubUrl": "https://github.com/avreally/hyperisland-project-1-todo",
@@ -21,20 +30,9 @@
     "notes": "You probably noticed that I love neon colors and dark themes."
   },
   {
-    "id": "02",
-    "name": "Monster Project",
-    "about": "A group project. A tamagotchi-like browser game where a user can feed a pet.",
-    "imgUrl": "../images/monster-project.png",
-    "websiteUrl": "https://avreally.github.io/monster-project/",
-    "githubUrl": "https://github.com/avreally/monster-project",
-    "stack": ["JavaScript", "HTML", "SCSS", "Grid", "Flexbox"],
-    "notes": "I enjoy playing games myself, and this game I created with my teammates."
-  },
-
-  {
     "id": "03",
     "name": "Music Box",
-    "about": "An app that uses Genius API to search for songs.",
+    "about": "Like this app, where you can search for music. Here I use Genius API to search for songs and show the result. I like solving complex problems and challenging tasks, as I believe that helps my professional growth.",
     "imgUrl": "../images/music-box.png",
     "websiteUrl": "https://music-box-avreally.herokuapp.com/",
     "githubUrl": "https://github.com/avreally/music-box",
@@ -49,12 +47,12 @@
       "CSS",
       "Flexbox"
     ],
-    "notes": "And before that I made another app to search for music (yes, again)."
+    "notes": "And before that I really got into exploring fullstack development and backend, so I wrote backend for some of my projects and had fun deploying them on Heroku."
   },
   {
     "id": "04",
     "name": "Streaming App",
-    "about": "Work in progress. An app that allows users to login with GitHub account, search for music and play it, and add songs to favourites.",
+    "about": "It is made with TypeScript that I started learning recently. You can login with a GitHub account, search for music, play it, and add songs to favourites (work in progress).",
     "imgUrl": "../images/streaming-app.png",
     "websiteUrl": "",
     "githubUrl": "https://github.com/avreally/streaming-app",
@@ -70,6 +68,6 @@
       "HTML",
       "CSS"
     ],
-    "notes": "Recently I really got into fullstack development and backend, so I wrote backend for several of my projects and had fun with deploying them on Heroku. I like music, maybe this is why I choose to make a streaming app instead of e-commerce website."
+    "notes": "I enjoy retrowave, synthwave, and electronic music, so I created a Streaming App project where you can listen to it."
   }
 ]

@@ -22,18 +22,11 @@ const AboutMe = () => {
             development in IT companies.
           </p>
           <p className="aboutMeText">
-            I prefer to work in companies where I will have the opportunity to
-            grow and improve my skills. I like solving complex problems and
-            challenging tasks, as I believe that helps my professional growth. I
-            enjoy working both in a team and individually, and I value trust and
-            open-mindedness.
+            I’d like to work in a company where I will have the opportunity to
+            grow and improve my skills. Before I started learning programming
+            languages I studied English, Japanese, German, and Swedish. I also
+            have a growing interest in IoT and robotics.
           </p>
-          {/*<p className="aboutMeText">*/}
-          {/*  Before I started learning programming languages I studied English,*/}
-          {/*  Japanese, German, and Swedish. I enjoy retrowave, synthwave, and*/}
-          {/*  electronic music, playing darts and video games, and I have a*/}
-          {/*  growing interest in IoT and robotics.*/}
-          {/*</p>*/}
         </div>
         <p className="aboutMeUrlsWrapper">
           <a
