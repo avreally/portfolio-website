@@ -14,7 +14,7 @@ const AboutMe = () => {
       <div className="aboutMeInfo">
         <div>
           <h1 className="aboutMeTitle">Valeria Shadrina</h1>
-          <p className="aboutMeSubtitle">Front-end Developer</p>
+          <p className="aboutMeSubtitle">Frontend Developer</p>
           <p className="aboutMeText">
             An eager to learn and full of enthusiasm Frontend Developer. My
             background in UX / UI Design, Project Management, sales, and Digital
