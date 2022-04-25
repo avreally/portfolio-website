@@ -9,6 +9,12 @@
   align-self: flex-start;
 }
 
+@supports (-moz-appearance: none) {
+  .lineContainer {
+    max-width: 300px;
+  }
+}
+
 .lineContainerAlignEnd {
   align-self: flex-end;
 }
