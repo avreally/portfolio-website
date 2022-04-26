@@ -5,8 +5,9 @@
 
 .lineContainer {
   margin: 0 clamp(50px, 20vw, 100px);
-  /*max-width: 600px;*/
   align-self: flex-start;
+  transform: translate3d(0, 0, 0);
+  /*animation: drawLine linear infinite alternate 1s;*/
 }
 
 @supports (-moz-appearance: none) {
@@ -20,20 +21,15 @@
 }
 
 .neonlightBlue {
-  /*-webkit-filter: drop-shadow(0 0 3px #58d9ff);*/
-  /*filter: drop-shadow(0 0 3px #58d9ff);*/
   -webkit-filter: drop-shadow(0 0 3px #9794ffff);
   filter: drop-shadow(0 0 3px #9794ffff);
 }
 
 .linePath {
-  /*stroke: #58d9ff;*/
-  /*stroke: #7772ff;*/
   stroke: #9794ffff;
   stroke-width: 4px;
   stroke-dasharray: 14;
   stroke-linecap: round;
-  animation: drawLine linear infinite alternate 1s;
 }
 
 @keyframes drawLine {

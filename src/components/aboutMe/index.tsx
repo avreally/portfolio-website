@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="profilePicWrapper">
         <img
           className="profilePic"
-          src="../images/profile-pic.jpeg"
+          src="../images/profile-pic.jpg"
           alt="profile picture"
         />
       </div>
