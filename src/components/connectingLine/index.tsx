@@ -3,7 +3,7 @@ import React from "react";
 
 type ConnectingLineProps = {
   variant: 0 | 1 | 2 | 3;
-  containerAlignSelf: "start" | "end";
+  containerAlignSelf: "start" | "end" | "center";
 };
 
 const connectingLine = ({
@@ -68,7 +68,11 @@ const connectingLine = ({
   return (
     <div
       className={`lineContainer ${
-        containerAlignSelf === "start" ? "" : "lineContainerAlignEnd"
+        containerAlignSelf === "start"
+          ? ""
+          : containerAlignSelf === "end"
+          ? "lineContainerAlignEnd"
+          : "lineContainerAlignCenter"
       }`}
     >
       {lineVariants[variant]}

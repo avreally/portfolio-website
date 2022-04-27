@@ -1,0 +1,26 @@
+.contactMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  padding: 0 24px;
+  text-align: center;
+
+  background: #25252f;
+  border-radius: 8px;
+  box-shadow: 0 0 3pt 5pt #25252f;
+}
+
+.contactMeText {
+  margin: 16px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+/*.aboutMeUrlsWrapper {*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  margin: 16px 4px;*/
+/*}*/

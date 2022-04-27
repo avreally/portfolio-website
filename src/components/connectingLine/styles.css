@@ -20,6 +20,10 @@
   align-self: flex-end;
 }
 
+.lineContainerAlignCenter {
+  align-self: center;
+}
+
 .neonlightBlue {
   -webkit-filter: drop-shadow(0 0 3px #9794ffff);
   filter: drop-shadow(0 0 3px #9794ffff);
