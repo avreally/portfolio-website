@@ -1,11 +1,17 @@
 import "./styles.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import React from "react";
 
 const AboutMe = () => {
+  const handlePictureLoad = (event: React.SyntheticEvent<HTMLImageElement>) => {
+    event.currentTarget.className = "profilePic profilePicLoaded";
+  };
+
   return (
     <div className="aboutMe">
       <div className="profilePicWrapper">
         <img
+          onLoad={handlePictureLoad}
           className="profilePic"
           src="../images/profile-pic.jpg"
           alt="profile picture"

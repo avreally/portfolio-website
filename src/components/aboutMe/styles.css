@@ -12,12 +12,23 @@
   display: flex;
   flex-basis: 25%;
   max-width: 200px;
+  margin-top: 24px;
+  aspect-ratio: 1 / 1;
+  width: 100%;
 }
 
 .profilePic {
   width: 100%;
   border-radius: 50%;
   border: 1px solid rgba(119, 114, 255, 0.55);
+  opacity: 0;
+  transition: opacity 1s, transform 1s;
+  transform: scale(0.95);
+}
+
+.profilePicLoaded {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .aboutMeInfo {
@@ -70,5 +81,9 @@
 
   .aboutMeUrlsWrapper {
     justify-content: flex-end;
+  }
+
+  .profilePicWrapper {
+    margin-top: 0;
   }
 }
