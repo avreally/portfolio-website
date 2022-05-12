@@ -1,6 +1,7 @@
 import "./styles.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 
 const AboutMe = () => {
   const handlePictureLoad = (event: React.SyntheticEvent<HTMLImageElement>) => {
@@ -36,20 +37,21 @@ const AboutMe = () => {
         </div>
         <p className="aboutMeUrlsWrapper">
           <a
-            className="aboutMeUrl"
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/valeriashadrina/?locale=en_US"
           >
-            <FaLinkedin size={30} />
+            <FaLinkedin size={35} />
           </a>
           <a
-            className="aboutMeUrl"
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/avreally"
           >
-            <FaGithub size={30} />
+            <FaGithub size={35} />
+          </a>
+          <a href="mailto:valeriia.shadrina@hyperisland.se">
+            <IoMail size={35} />
           </a>
         </p>
       </div>
