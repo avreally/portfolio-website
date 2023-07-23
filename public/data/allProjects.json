@@ -34,7 +34,7 @@
     "name": "Music Box",
     "about": "Like this app, where you can search for music. Here I use Genius API to search for songs and show the result. I like solving complex problems and challenging tasks, as I believe that helps my professional growth.",
     "imgUrl": "../images/music-box.jpg",
-    "websiteUrl": "https://music-box-avreally.herokuapp.com/",
+    "websiteUrl": "https://music-box-ilyu.onrender.com",
     "githubUrl": "https://github.com/avreally/music-box",
     "stack": [
       "React",
@@ -43,11 +43,12 @@
       "Axios",
       "Express",
       "Heroku",
+      "Render",
       "HTML",
       "CSS",
       "Flexbox"
     ],
-    "notes": "And before that I really got into exploring fullstack development and backend, so I wrote backend for some of my projects and had fun deploying them on Heroku."
+    "notes": "And before that I really got into exploring fullstack development and backend, so I wrote backend for some of my projects and had fun deploying them to Heroku and lately to Render."
   },
   {
     "id": "04",
