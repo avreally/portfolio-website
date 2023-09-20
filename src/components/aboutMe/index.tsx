@@ -14,7 +14,7 @@ const AboutMe = () => {
         <img
           onLoad={handlePictureLoad}
           className="profilePic"
-          src="../images/profile-pic.jpg"
+          src="../images/profile-pic.png"
           alt="profile picture"
         />
       </div>
