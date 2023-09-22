@@ -4,14 +4,25 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  max-width: 350px;
   padding: 24px;
-  border: 1px solid rgba(119, 114, 255, 0.55);
-  box-shadow: 0 0 3pt 2pt rgba(99, 94, 255, 0.55);
+  border: 2px solid #7303c0;
+  box-shadow: 0 0 3pt 2pt #50058e;
   border-radius: 8px;
   align-self: flex-start;
 }
 
 .annotationAlignEnd {
   align-self: flex-end;
+}
+
+.long {
+  max-width: 540px;
+}
+
+.medium {
+  max-width: 350px;
+}
+
+.short {
+  max-width: 300px;
 }

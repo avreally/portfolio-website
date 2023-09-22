@@ -7,11 +7,13 @@ type AnnotationProps = {
 };
 
 const Annotation = ({ project, alignSelf }: AnnotationProps) => {
+  const notesLength = project.notes.length;
+
   return (
     <div
       className={`annotation ${
         alignSelf === "end" ? "annotationAlignEnd" : ""
-      }`}
+      } ${notesLength > 150 ? "long" : notesLength > 100 ? "medium" : "short"}`}
     >
       {project.notes}
     </div>
