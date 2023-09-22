@@ -11,6 +11,8 @@
 
 .projectAbout {
   margin: 16px 4px;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .stack {
@@ -28,7 +30,7 @@
   margin: 4px;
   background-color: #151526;
   border-radius: 4px;
-  border: 1px solid rgba(119, 114, 255, 0.55);
+  border: 1px solid #50058e;
   font-size: clamp(12px, 1.5vw, 16px);
 }
 

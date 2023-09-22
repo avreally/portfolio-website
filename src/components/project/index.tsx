@@ -28,7 +28,7 @@ const Project = ({ project, imageAlign }: ProjectProps) => {
 
   return (
     <div
-      className={`project ${imageAlign === "end" ? "projectImageEnd mouseGradientEnd" : ""} ${
+      className={`project ${imageAlign === "end" ? "projectImageEnd" : ""} ${
         isMouseEnter ? "mouseGradient" : ""
       }`}
       onMouseEnter={toggleClass}
@@ -38,7 +38,7 @@ const Project = ({ project, imageAlign }: ProjectProps) => {
         {
           "--x": `${coordinates.x}px`,
           "--y": `${coordinates.y}px`,
-          "--gradient-direction": imageAlign === "end" ? "to left" : "to right",
+          "--gradient-direction": imageAlign === "end" ? "to bottom left" : "to bottom right",
         } as CSSProperties
       }
     >

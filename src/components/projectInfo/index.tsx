@@ -11,7 +11,7 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
   return (
     <div className="projectInfo">
       <h2 className="projectName">{project.name}</h2>
-      <p className="projectAbout">{project.about}</p>
+      <p className="projectAbout" dangerouslySetInnerHTML={{ __html: project.about }} />
       <ul className="stack">
         {project.stack.map((element) => (
           <li key={element} className="stackElement">
