@@ -64,7 +64,7 @@
   {
     "id": "05",
     "name": "Escaping Duck",
-    "about": "<p>Collaborating with others is essential for me, and I appreciate working both as part of a team and independently while finding the right balance. </p> At first, I was using a Circuit Playground that was measuring the volume and indicating it's level with the built in led lights. It gave me a chance to explore various technologies, languages, and frameworks. Later I updated the project to work even without the hardware so anyone can play it.",
+    "about": "Collaborating with others is essential for me, and I appreciate working both as part of a team and independently while finding the right balance. <br> \nAt first, I was using a Circuit Playground that was measuring the volume and indicating it's level with the built in led lights. It gave me a chance to explore various technologies, languages, and frameworks. Later I updated the project to work even without the hardware so anyone can play it.",
     "imgUrl": "../images/escaping-duck.jpg",
     "websiteUrl": "https://escapefromhyperisland.github.io/team1-chaos/escaping-duck/",
     "githubUrl": "https://github.com/escapefromhyperisland/team1-chaos/tree/main/escaping-duck",

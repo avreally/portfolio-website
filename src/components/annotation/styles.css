@@ -4,7 +4,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 24px;
+  padding: 16px;
   border: 2px solid #7303c0;
   box-shadow: 0 0 3pt 2pt #50058e;
   border-radius: 8px;
@@ -25,4 +25,10 @@
 
 .short {
   max-width: 300px;
+}
+
+@media screen and (min-width: 800px) {
+  .annotation {
+    padding: 18px;
+  }
 }
