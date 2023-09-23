@@ -4,7 +4,9 @@
 }
 
 .lineContainer {
-  margin: 0 clamp(50px, 20vw, 100px);
+  margin: 0 auto;
+  width: 50%;
+  max-width: 180px;
   align-self: flex-start;
   transform: translate3d(0, 0, 0);
   /*animation: drawLine linear infinite alternate 1s;*/
@@ -12,7 +14,7 @@
 
 @supports (-moz-appearance: none) {
   .lineContainer {
-    max-width: 300px;
+    max-width: 180px;
   }
 }
 
@@ -42,6 +44,15 @@
   }
   100% {
     stroke-dashoffset: 10;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .lineContainer {
+    margin: 0 clamp(50px, 20vw, 100px);
+
+    width: auto;
+    max-width: 200px;
   }
 }
 
