@@ -12,7 +12,7 @@ const connectingLine = ({
 }: ConnectingLineProps) => {
   const lineVariants = [
     <svg
-      className="line neonlightBlue"
+      className="line neonPurple"
       key={1}
       viewBox="0 0 307 201"
       fill="none"
@@ -25,7 +25,7 @@ const connectingLine = ({
       />
     </svg>,
     <svg
-      className="line neonlightBlue"
+      className="line neonPurple"
       key={2}
       viewBox="0 0 307 202"
       fill="none"
@@ -38,7 +38,7 @@ const connectingLine = ({
       />
     </svg>,
     <svg
-      className="line neonlightBlue"
+      className="line neonPurple"
       key={3}
       viewBox="0 0 307 201"
       fill="none"
@@ -51,7 +51,7 @@ const connectingLine = ({
       />
     </svg>,
     <svg
-      className="line neonlightBlue"
+      className="line neonPurple"
       key={4}
       viewBox="0 0 307 201"
       fill="none"

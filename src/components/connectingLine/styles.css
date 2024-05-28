@@ -26,13 +26,13 @@
   align-self: center;
 }
 
-.neonlightBlue {
-  -webkit-filter: drop-shadow(0 0 3px #9794ffff);
-  filter: drop-shadow(0 0 3px #9794ffff);
+.neonPurple {
+    -webkit-filter: drop-shadow(0 0 3px #ec38bc);
+  filter: drop-shadow(0 0 3px #7303c0);
 }
 
 .linePath {
-  stroke: #9794ffff;
+  stroke: #9815c0;
   stroke-width: 4px;
   stroke-dasharray: 14;
   stroke-linecap: round;
