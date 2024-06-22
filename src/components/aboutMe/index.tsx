@@ -10,26 +10,22 @@ const AboutMe = () => {
 
   return (
     <div className="aboutMe">
-      <div className="profilePicWrapper">
-        <img
-          onLoad={handlePictureLoad}
-          className="profilePic"
-          src="../images/profile-pic.png"
-          alt="profile picture"
-        />
-      </div>
       <div className="aboutMeInfo">
         <div>
-          <h1 className="aboutMeTitle">Greetings, web wanderer! </h1>
-          <p className="aboutMeSubtitle">Step into my digital world, where I wear the hat of a Frontend Developer.</p>
+          <h1 className="aboutMeTitle">Hey there</h1>
+          <p className="aboutMeSubtitle">
+            I&apos;m Valeria, a Frontend Developer.
+          </p>
           <p className="aboutMeText">
-            I&apos;m dedicated to the craft of UX, UI, and the art of making things beautiful.
-            I genuinely enjoy my work, whether it&apos;s creating functional, visually appealing interfaces, fixing things,
+            I&apos;m dedicated to the craft of UX, UI, and the art of making
+            things beautiful. I genuinely enjoy my work, whether it&apos;s
+            creating functional, visually appealing interfaces, fixing things,
             or finding solutions to meet user needs.
           </p>
           <p className="aboutMeText">
-            It is important to me to be in a place that values diversity, equality, and inclusion.
-            I appreciate an environment that provides room for me to grow and improve my skills.
+            It is important to me to be in a place that values diversity,
+            equality, and inclusion. I appreciate an environment that provides
+            room for me to grow and improve my skills.
           </p>
           <p className="aboutMeText">
             Let me tell you more about myself and my work.
