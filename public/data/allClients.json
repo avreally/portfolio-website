@@ -1,0 +1,26 @@
+[
+  {
+    "id": "00",
+    "name": "Astrid Lindgren",
+    "about": "",
+    "imgUrl": "../images/astrid.jpg",
+    "websiteUrl": "https://www.astridlindgren.com/",
+    "stack": []
+  },
+  {
+    "id": "01",
+    "name": "Mini Rodini",
+    "about": "",
+    "imgUrl": "../images/mini.jpg",
+    "websiteUrl": "https://minirodini.com/",
+    "stack": []
+  },
+  {
+    "id": "02",
+    "name": "EQPE",
+    "about": "",
+    "imgUrl": "../images/eqpe.jpg",
+    "websiteUrl": "https://eqpestore.com/",
+    "stack": []
+  }
+]

@@ -1,5 +1,4 @@
 type ProjectType = {
-  // key: string;
   id: string;
   name: string;
   about: string;
@@ -10,6 +9,15 @@ type ProjectType = {
   notes: string;
 };
 
+type ClientType = {
+  id: string;
+  name: string;
+  about: string;
+  imgUrl: string;
+  websiteUrl: string;
+  stack: StackElement[];
+};
+
 type StackElement = string;
 
-export type { ProjectType, StackElement };
+export type { ProjectType, ClientType, StackElement };
