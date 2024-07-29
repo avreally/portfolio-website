@@ -4,15 +4,15 @@ import AllProjects from "./components/allProjects";
 import AboutMe from "./components/aboutMe";
 import ContactInfo from "./components/contactInfo";
 import ConnectingLine from "./components/connectingLine";
-import ClientsCarousel from "./components/clientsCarousel";
+// import ClientsCarousel from "./components/clientsCarousel";
 
 const App = () => {
   const [data, setData] = useState([]);
-  const [clientsData, setClientsData] = useState([]);
+  // const [clientsData, setClientsData] = useState([]);
 
   useEffect(() => {
     getProjectData();
-    getClientsData();
+    // getClientsData();
   }, []);
 
   const getProjectData = async () => {
@@ -20,10 +20,10 @@ const App = () => {
     setData(await allProjects.json());
   };
 
-  const getClientsData = async () => {
-    const allClients = await fetch("data/allClients.json");
-    setClientsData(await allClients.json());
-  };
+  // const getClientsData = async () => {
+  //   const allClients = await fetch("data/allClients.json");
+  //   setClientsData(await allClients.json());
+  // };
 
   return (
     <div className="app">
