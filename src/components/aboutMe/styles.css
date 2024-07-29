@@ -48,10 +48,6 @@
   width: fit-content;
 }
 
-.aboutMeSubtitle {
-  margin: 16px 4px;
-}
-
 .aboutMeText {
   margin: 16px 4px;
 }
@@ -74,8 +70,7 @@
     margin-right: auto;
   }
 
-  .aboutMeTitle,
-  .aboutMeSubtitle {
+  .aboutMeTitle {
     text-align: center;
   }
 

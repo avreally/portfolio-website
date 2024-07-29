@@ -13,14 +13,11 @@ const AboutMe = () => {
       <div className="aboutMeInfo">
         <div>
           <h1 className="aboutMeTitle">Hey there</h1>
-          <p className="aboutMeSubtitle">
-            I&apos;m Valeria, a Frontend Developer.
-          </p>
           <p className="aboutMeText">
-            I&apos;m dedicated to the craft of UX, UI, and the art of making
-            things beautiful. I genuinely enjoy my work, whether it&apos;s
-            creating functional, visually appealing interfaces, fixing things,
-            or finding solutions to meet user needs.
+            I&apos;m Valeria, a Frontend Developer dedicated to the craft of UX,
+            UI, and the art of making things beautiful. I genuinely enjoy my
+            work, whether it&apos;s creating functional, visually appealing
+            interfaces, fixing things, or finding solutions to meet user needs.
           </p>
           <p className="aboutMeText">
             It is important to me to be in a place that values diversity,

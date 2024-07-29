@@ -28,9 +28,6 @@ const App = () => {
   return (
     <div className="app">
       <AboutMe />
-      {clientsData !== undefined ? (
-        <ClientsCarousel clientsData={clientsData} />
-      ) : null}
       {data !== undefined ? <AllProjects allProjectsData={data} /> : null}
       <ConnectingLine variant={3} containerAlignSelf="center" />
       <ContactInfo />
