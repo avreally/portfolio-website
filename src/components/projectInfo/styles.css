@@ -29,8 +29,7 @@
   list-style: none;
   padding: 8px;
   background-color: #151526;
-  border-radius: 4px;
-  border: 1px solid #50058e;
+  border: 1px solid #07ff32;
   font-size: clamp(12px, 1.5vw, 16px);
 }
 
