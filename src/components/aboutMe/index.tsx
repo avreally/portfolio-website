@@ -4,10 +4,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
 const AboutMe = () => {
-  const handlePictureLoad = (event: React.SyntheticEvent<HTMLImageElement>) => {
-    event.currentTarget.className = "profilePic profilePicLoaded";
-  };
-
   return (
     <div className="aboutMe">
       <div className="aboutMeInfo">
