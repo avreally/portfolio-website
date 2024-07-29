@@ -9,7 +9,6 @@
   max-width: 180px;
   align-self: flex-start;
   transform: translate3d(0, 0, 0);
-  /*animation: drawLine linear infinite alternate 1s;*/
 }
 
 @supports (-moz-appearance: none) {
@@ -27,15 +26,13 @@
 }
 
 .neonPurple {
-    -webkit-filter: drop-shadow(0 0 3px #ec38bc);
+  -webkit-filter: drop-shadow(0 0 3px #ec38bc);
   filter: drop-shadow(0 0 3px #7303c0);
 }
 
 .linePath {
-  stroke: #9815c0;
-  stroke-width: 4px;
-  stroke-dasharray: 14;
-  stroke-linecap: round;
+  stroke: #07ff32;
+  stroke-width: 2px;
 }
 
 @keyframes drawLine {
@@ -54,8 +51,8 @@
     width: auto;
     max-width: 200px;
   }
-}
 
-/* stroke="black" stroke-width="16" stroke-linecap="round" stroke-dasharray="1 70" */
-/*  animation: drawLine linear infinite alternate-reverse 10s;*/
-/*#7772ff*/
+  .lineContainerAlignEnd {
+    margin: 0 clamp(50px, 20vw, 60px);
+  }
+}
