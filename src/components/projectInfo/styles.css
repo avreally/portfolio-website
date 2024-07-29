@@ -6,6 +6,8 @@
 }
 
 .projectName {
+  font-family: "Trirong", serif;
+  font-weight: 500;
   margin: 0;
   font-size: clamp(20px, 3vw, 28px);
 }
@@ -30,6 +32,7 @@
   padding: 8px;
   background-color: #151526;
   border: 1px solid #07ff32;
+  font-family: "Exo", sans-serif;
   font-size: clamp(12px, 1.5vw, 16px);
 }
 
