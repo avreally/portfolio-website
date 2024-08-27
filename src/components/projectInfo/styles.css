@@ -5,6 +5,13 @@
   gap: 1rem;
 }
 
+.projectHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .projectName {
   font-family: "Trirong", serif;
   font-weight: 500;
@@ -33,15 +40,24 @@
   background-color: #151526;
   border: 1px solid #07ff32;
   font-family: "Exo", sans-serif;
-  font-size: clamp(12px, 1.5vw, 16px);
+  font-size: clamp(14px, 1.5vw, 16px);
 }
 
 .projectUrlsWrapper {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 
 .projectUrl {
-  padding-right: 16px;
+  width: 1.25rem;
+  height: 1.25rem;
   margin: 0;
+}
+
+@media screen and (min-width: 800px) {
+  .projectUrl {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }

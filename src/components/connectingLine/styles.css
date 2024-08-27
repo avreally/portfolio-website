@@ -32,7 +32,7 @@
 
 .linePath {
   stroke: #07ff32;
-  stroke-width: 2px;
+  stroke-width: 1px;
 }
 
 @keyframes drawLine {
