@@ -1,9 +1,14 @@
 .aboutMe {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
   max-width: 1000px;
-  gap: clamp(24px, 3vw, 48px);
+}
+
+.aboutMeHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .aboutMeInfo {
@@ -19,23 +24,15 @@
   font-weight: 400;
   font-style: normal;
   margin: 16px 4px;
-  text-transform: uppercase;
   font-size: clamp(24px, 3vw, 36px);
-  background: linear-gradient(to left, #7303c0, #cf23cf, #eedd44, #07ff32);
+  background: linear-gradient(to top left, #7303c0, #cf23cf, #eedd44, #07ff32);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   width: fit-content;
 }
 
 .aboutMeText {
-  margin: 16px 4px;
-}
-
-.aboutMeUrlsWrapper {
-  display: flex;
-  flex-direction: row;
-  margin: 16px 4px;
-  gap: 1rem;
+  margin: 8px 4px;
 }
 
 @media (max-width: 800px) {
