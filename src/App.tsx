@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import AllProjects from "./components/allProjects";
 import AboutMe from "./components/aboutMe";
-import ContactInfo from "./components/contactInfo";
-import ConnectingLine from "./components/connectingLine";
+import Navbar from "./components/navbar";
 // import ClientsCarousel from "./components/clientsCarousel";
 
 const App = () => {
@@ -27,10 +26,9 @@ const App = () => {
 
   return (
     <div className="app">
+      <Navbar />
       <AboutMe />
       {data !== undefined ? <AllProjects allProjectsData={data} /> : null}
-      <ConnectingLine variant={3} containerAlignSelf="center" />
-      <ContactInfo />
     </div>
   );
 };
