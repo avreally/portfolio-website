@@ -77,6 +77,25 @@
       "Python",
       "Circuit Playground"
     ],
-    "notes": "I enjoy playing video games, and this game I created while still studying at Hyper Island. It was an individual project but we were still working in a team making decisions on common idea and providing support and feedback for each other."
+    "notes": "Before that I studied in Hyper Island and here are some projects that I've created along the way. I enjoy playing video games, and this game I created while still studying at Hyper Island. It was an individual project but we were still working in a team making decisions on common idea and providing support and feedback for each other."
+  },
+  {
+    "id": "06",
+    "name": "Recent Projects",
+    "about": "Working on e-commerce projects with top Nordic brands like Xlash, Stronger, John Henric, EQPE, Mateus, Mini Rodini, and more to enhance their online platforms. <br> \nFocusing on UI implementation and delivering high-value features to enhance user experience. <br> \nWorking closely with cross-functional teams including project managers, designers, and QA",
+    "imgUrl": "../images/astrid.jpg",
+    "websiteUrl": "",
+    "githubUrl": "",
+    "stack": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Vue",
+      "CSS",
+      "SASS",
+      "Tailwind",
+      "HTML"
+    ],
+    "notes": "For the past two years I've been working as a Frontend Developer at Made People."
   }
 ]

@@ -1,3 +1,21 @@
+@property --myColor1 {
+  syntax: "<color>";
+  initial-value: #ec38bc;
+  inherits: false;
+}
+
+@property --myColor2 {
+  syntax: "<color>";
+  initial-value: #07ff32;
+  inherits: false;
+}
+
+@property --myColor3 {
+  syntax: "<color>";
+  initial-value: #03001e;
+  inherits: false;
+}
+
 .project {
   --gradient-direction: to right;
   margin: 0;
@@ -5,30 +23,66 @@
   align-items: center;
   justify-content: center;
   max-width: 1000px;
-  padding: 18px;
   gap: 1rem;
-  background: linear-gradient(#1b1b22, #1b1b22) padding-box,
-    linear-gradient(var(--gradient-direction), #ec38bc, #07ff32, #03001e)
-      border-box;
+  position: relative;
   border: 2px solid transparent;
+  background: linear-gradient(#1b1b22, #1b1b22) padding-box,
+    linear-gradient(
+        var(--gradient-direction),
+        var(--myColor1),
+        var(--myColor2),
+        var(--myColor3)
+      )
+      border-box;
+  transition: --myColor1 2s, --myColor2 2s, --myColor3 2s;
 }
 
 .projectImageEnd {
   flex-direction: row-reverse;
 }
 
+.bg {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  gap: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*border: 2px solid transparent;*/
+  /*background: linear-gradient(#1b1b22, #1b1b22) padding-box,*/
+  /*  linear-gradient(var(--gradient-direction), var(--myColor1), var(--myColor2), var(--myColor3))*/
+  /*    border-box;*/
+  /*transition: --myColor1 2s, --myColor2 2s, --myColor3 2s;*/
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*border: 2px solid transparent;*/
+}
+
+.project:hover {
+  --myColor1: #03001e;
+  --myColor2: #7303c0;
+  --myColor3: #ec38bc;
+}
+
 .mouseGradient {
   --x: 0;
   --y: 0;
   background: radial-gradient(
-        circle at var(--x) var(--y),
-        rgb(40, 35, 168) 0%,
-        rgba(40, 35, 168, 0) calc(0% + 120px)
-      )
-      padding-box,
-    linear-gradient(#1b1b22, #1b1b22) padding-box,
-    linear-gradient(var(--gradient-direction), #03001e, #7303c0, #ec38bc)
-      border-box;
+    circle at var(--x) var(--y),
+    rgb(40, 35, 168) 0%,
+    rgba(40, 35, 168, 0) calc(0% + 120px)
+  );
 }
 
 @media (max-width: 800px) {
@@ -39,6 +93,6 @@
 
 @media screen and (min-width: 800px) {
   .project {
-    padding: 20px;
+    /*padding: 20px;*/
   }
 }

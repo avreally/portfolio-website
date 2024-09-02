@@ -13,8 +13,12 @@ const Project = ({ project, imageAlign }: ProjectProps) => {
   const [isMouseEnter, setIsMouseEnter] = useState(false);
   const [coordinates, setCoordinates] = useState({ x: 0, y: 0 });
 
-  const toggleClass = () => {
-    setIsMouseEnter(!isMouseEnter);
+  const handleMouseEnter = () => {
+    setIsMouseEnter(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsMouseEnter(false);
   };
 
   const getCoordinates = (
@@ -28,20 +32,28 @@ const Project = ({ project, imageAlign }: ProjectProps) => {
 
   return (
     <div
-      className={`project ${imageAlign === "end" ? "projectImageEnd" : ""} ${
-        isMouseEnter ? "mouseGradient" : ""
-      }`}
-      onMouseEnter={toggleClass}
-      onMouseLeave={toggleClass}
+      className={`project ${imageAlign === "end" ? "projectImageEnd" : ""}`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       onMouseMove={getCoordinates}
       style={
         {
-          "--x": `${coordinates.x}px`,
-          "--y": `${coordinates.y}px`,
-          "--gradient-direction": imageAlign === "end" ? "to bottom left" : "to bottom right",
+          "--gradient-direction":
+            imageAlign === "end" ? "to bottom left" : "to bottom right",
         } as CSSProperties
       }
     >
+      <div className="bg"></div>
+
+      <div
+        className={`overlay ${isMouseEnter ? "mouseGradient" : ""}`}
+        style={
+          {
+            "--x": `${coordinates.x}px`,
+            "--y": `${coordinates.y}px`,
+          } as CSSProperties
+        }
+      ></div>
       <ProjectImage imgUrl={project.imgUrl} websiteUrl={project.websiteUrl} />
       <ProjectInfo project={project} />
     </div>

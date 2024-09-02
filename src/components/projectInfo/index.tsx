@@ -10,7 +10,29 @@ type ProjectInfoProps = {
 const ProjectInfo = ({ project }: ProjectInfoProps) => {
   return (
     <div className="projectInfo">
-      <h2 className="projectName">{project.name}</h2>
+      <div className="projectHeader">
+        <h2 className="projectName">{project.name}</h2>
+        <div className="projectUrlsWrapper">
+          {project.websiteUrl ? (
+            <a
+              className="projectUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={project.websiteUrl}
+            >
+              <RiExternalLinkLine />
+            </a>
+          ) : null}
+          <a
+            className="projectUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={project.githubUrl}
+          >
+            <FaGithub />
+          </a>
+        </div>
+      </div>
       <p
         className="projectAbout"
         dangerouslySetInnerHTML={{ __html: project.about }}
@@ -22,24 +44,6 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
           </li>
         ))}
       </ul>
-      <div className="projectUrlsWrapper">
-        {project.websiteUrl ? (
-          <p className="projectUrl">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={project.websiteUrl}
-            >
-              <RiExternalLinkLine size={30} />
-            </a>
-          </p>
-        ) : null}
-        <p className="projectUrl">
-          <a target="_blank" rel="noopener noreferrer" href={project.githubUrl}>
-            <FaGithub size={30} />
-          </a>
-        </p>
-      </div>
     </div>
   );
 };
