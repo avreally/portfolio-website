@@ -1,26 +1,11 @@
 .projectImg {
   width: 100%;
   display: block;
-}
-
-.projectImg:hover {
-  box-shadow: 0 0 2pt 0 #07ff32;
+  border-radius: .1rem;
 }
 
 .projectImgUrl {
   display: block;
+  position: relative;
   width: 100%;
-  transition: transform 0.3s;
-  transform: scale(0.93);
-  padding: 1rem;
-}
-
-.projectImgUrl:hover {
-  transform: scale(0.98);
-}
-
-@media (max-width: 800px) {
-  .projectImgUrl {
-    width: 100%;
-  }
 }
