@@ -83,7 +83,7 @@
     "id": "06",
     "name": "Recent Projects",
     "about": "Working on e-commerce projects with top Nordic brands like Xlash, Stronger, John Henric, EQPE, Mateus, Mini Rodini, and more to enhance their online platforms. <br> \nFocusing on UI implementation and delivering high-value features to enhance user experience. <br> \nWorking closely with cross-functional teams including project managers, designers, and QA",
-    "imgUrl": "../images/astrid.jpg",
+    "imgUrl": "",
     "websiteUrl": "",
     "githubUrl": "",
     "stack": [
@@ -94,6 +94,7 @@
       "CSS",
       "SASS",
       "Tailwind",
+      "Framer Motion",
       "HTML"
     ],
     "notes": "For the past two years I've been working as a Frontend Developer at Made People."

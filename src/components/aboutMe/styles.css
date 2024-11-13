@@ -1,7 +1,10 @@
 .aboutMe {
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
   max-width: 1000px;
+  background: #25252f;
+  box-shadow: 0 0 3pt 5pt #25252f;
 }
 
 .aboutMeHeader {
@@ -15,16 +18,14 @@
   display: flex;
   flex-direction: column;
   flex-basis: 75%;
-  background: #25252f;
-  box-shadow: 0 0 3pt 5pt #25252f;
 }
 
 .aboutMeTitle {
   font-family: "Exo", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: 16px 4px;
   font-size: clamp(24px, 3vw, 36px);
+  margin: 0;
   background: linear-gradient(to top left, #7303c0, #cf23cf, #eedd44, #07ff32);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -39,11 +40,6 @@
   .aboutMe {
     flex-direction: column;
     align-items: center;
-  }
-
-  .aboutMeTitle {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .aboutMeTitle {

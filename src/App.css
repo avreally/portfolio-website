@@ -36,5 +36,5 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  padding: 40px clamp(4px, 4vw, 40px);
+  padding: 2rem 1rem;
 }
