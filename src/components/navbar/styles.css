@@ -12,10 +12,6 @@
 }
 
 .headline {
-  font-family: "Exo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: clamp(18px, 3vw, 24px);
   background: linear-gradient(
     to bottom right,
     #7303c0,
@@ -29,6 +25,16 @@
 
 .nav-links {
   display: flex;
-  gap: 1rem;
-  margin-left: 1rem;
+  gap: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #eedd44;
+}
+
+.nav-links a:hover {
+  color: #cf23cf;
+  transition: color ease .5s;
 }
