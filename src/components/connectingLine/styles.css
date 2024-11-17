@@ -25,23 +25,10 @@
   align-self: center;
 }
 
-.neonPurple {
-  -webkit-filter: drop-shadow(0 0 3px #ec38bc);
-  filter: drop-shadow(0 0 3px #7303c0);
-}
 
 .linePath {
   stroke: #07ff32;
   stroke-width: 1px;
-}
-
-@keyframes drawLine {
-  0% {
-    stroke-dashoffset: 0;
-  }
-  100% {
-    stroke-dashoffset: 10;
-  }
 }
 
 @media screen and (min-width: 425px) {

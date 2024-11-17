@@ -1,5 +1,4 @@
 import "./styles.css";
-import React from "react";
 
 type ConnectingLineProps = {
   variant: 0 | 1 | 2 | 3;
@@ -12,7 +11,7 @@ const connectingLine = ({
 }: ConnectingLineProps) => {
   const lineVariants = [
     <svg
-      className="line neonPurple"
+      className="line"
       key={1}
       viewBox="0 0 296 118"
       fill="none"
@@ -21,7 +20,7 @@ const connectingLine = ({
       <path className="linePath" stroke="black" d="M295 1L295 49H1V117" />
     </svg>,
     <svg
-      className="line neonPurple"
+      className="line"
       key={2}
       viewBox="0 0 296 118"
       fill="none"
@@ -30,7 +29,7 @@ const connectingLine = ({
       <path className="linePath" d="M1 1L1 49H295V117" stroke="black" />
     </svg>,
     <svg
-      className="line neonPurple"
+      className="line"
       key={3}
       viewBox="0 0 296 118"
       fill="none"
@@ -39,7 +38,7 @@ const connectingLine = ({
       <path className="linePath" d="M295 1L295 49H1V117" stroke="black" />
     </svg>,
     <svg
-      className="line neonPurple"
+      className="line"
       key={4}
       viewBox="0 0 296 118"
       fill="none"
