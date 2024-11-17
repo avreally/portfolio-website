@@ -36,7 +36,7 @@
         var(--myColor3)
       )
       border-box;
-  transition: --myColor1 2s, --myColor2 2s, --myColor3 2s;
+  transition: --myColor1 .8s, --myColor2 .8s, --myColor3 .8s;
 }
 
 .bg {
