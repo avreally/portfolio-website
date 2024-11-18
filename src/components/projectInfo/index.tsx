@@ -9,9 +9,11 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
   return (
     <div className="wrapper">
       <div className="projectInfo">
-        <div className="projectHeader">
-          <h2 className="projectName">{project.name}</h2>
-        </div>
+        {project.name ? (
+          <div className="projectHeader">
+            <h2 className="projectName">{project.name}</h2>
+          </div>
+        ) : null}
         <p
           className="projectAbout"
           dangerouslySetInnerHTML={{ __html: project.about }}
