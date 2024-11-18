@@ -4,9 +4,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div className="aboutMe">
-      <div className="aboutMeHeader">
-        <h1 className="aboutMeTitle">hey there</h1>
-      </div>
+      <div className="aboutMeHeader">hey there</div>
       <div className="aboutMeInfo">
         <p className="aboutMeText">
           I&apos;m Valeria, a Frontend Developer with the focus on design,

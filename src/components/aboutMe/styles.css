@@ -1,52 +1,31 @@
 .aboutMe {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  max-width: 1000px;
-  background: #25252f;
-  box-shadow: 0 0 3pt 5pt #25252f;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0.25rem;
+	gap: 0.5rem;
+	max-width: 1000px;
+	background: #25252f;
+	box-shadow: 0 0 3pt 5pt #25252f;
 }
 
 .aboutMeHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+	width: fit-content;
+	font-family: "Exo", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: clamp(24px, 3vw, 36px);
+	background: linear-gradient(to top left, #010101, #cf23cf, #eedd44, #07ff32);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
 .aboutMeInfo {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 75%;
-}
-
-.aboutMeTitle {
-  font-family: "Exo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: clamp(24px, 3vw, 36px);
-  margin: 0;
-  background: linear-gradient(to top left, #7303c0, #cf23cf, #eedd44, #07ff32);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  width: fit-content;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 75%;
+	gap: 1rem;
 }
 
 .aboutMeText {
-  margin: 8px 4px;
-}
-
-@media (max-width: 800px) {
-  .aboutMe {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .aboutMeTitle {
-    text-align: center;
-  }
-
-  .aboutMeUrlsWrapper {
-    justify-content: flex-end;
-  }
+	margin: 0;
 }
