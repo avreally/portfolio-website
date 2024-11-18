@@ -63,6 +63,7 @@
 	display: block;
 	position: relative;
 	text-decoration: none;
+	color: #fff;
 }
 
 .projectUrl:hover {
