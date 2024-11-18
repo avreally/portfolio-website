@@ -1,39 +1,14 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-* {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: clamp(16px, 3vw, 18px);
-  line-height: 1.4;
-  color: #fff;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #25252f url("./assets/bg-pattern.svg");
-}
-
-#root {
-  margin: 0;
-  padding: 0;
-  transform: translate3d(
-    0,
-    0,
-    0
-  ); /* Force creating composition layer to optimize browser's page painting */
-}
-
 .app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding: 40px clamp(4px, 4vw, 40px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	padding: 0 1rem 3rem;
+}
+
+@media screen and (min-width: 768px) {
+	.app {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 }

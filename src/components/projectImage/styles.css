@@ -1,27 +1,24 @@
 .projectImg {
   width: 100%;
-  border-radius: 8px;
   display: block;
-}
-
-.projectImg:hover {
-  box-shadow: 0 0 3pt 2pt rgba(99, 94, 255, 0.55);
+  border-radius: .1rem;
+  min-width: 0;
 }
 
 .projectImgUrl {
   display: block;
-  width: 90%;
-  border-radius: 8px;
-  transition: transform 0.3s;
-  transform: scale(0.93);
+  position: relative;
+  width: 100%;
 }
 
-.projectImgUrl:hover {
-  transform: scale(0.98);
+.projectImgUrl::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  border-radius: .1rem;
 }
 
-@media (max-width: 800px) {
-  .projectImgUrl {
-    width: 100%;
-  }
+.projectImgUrl:hover::after {
+  border: 1px solid #07ff32;
 }

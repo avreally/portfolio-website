@@ -13,7 +13,7 @@ const allProjects = ({ allProjectsData }: AllProjectsProps) => {
   return (
     <div className="allProjects">
       {[...allProjectsData].reverse().map((project) =>
-        allProjectsData.indexOf(project) % 2 === 0 ? (
+        allProjectsData.indexOf(project) % 2 !== 0 ? (
           <React.Fragment key={project.id}>
             <ConnectingLine variant={0} containerAlignSelf="start" />
             <Annotation project={project} alignSelf="start" />

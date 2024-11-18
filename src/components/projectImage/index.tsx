@@ -6,16 +6,21 @@ type ProjectImageProps = {
 };
 
 const ProjectImage = ({ imgUrl, websiteUrl }: ProjectImageProps) => {
-  return (
+  const imgElement = (
+    <img className="projectImg" src={imgUrl} alt="Project Preview" />
+  );
+
+  return websiteUrl ? (
     <a
       className="projectImgUrl"
       target="_blank"
       rel="noopener noreferrer"
-      href={websiteUrl ? websiteUrl : undefined}
+      href={websiteUrl}
     >
-      <img className="projectImg" src={imgUrl} alt="Project Preview" />
+      {imgElement}
     </a>
+  ) : (
+    imgElement
   );
 };
-
 export default ProjectImage;
