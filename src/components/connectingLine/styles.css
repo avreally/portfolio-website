@@ -38,3 +38,9 @@
 		}
 	}
 }
+
+@media screen and (prefers-reduced-motion: reduce) {
+	.line rect {
+		display: none;
+	}
+}
