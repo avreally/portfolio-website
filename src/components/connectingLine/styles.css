@@ -1,45 +1,40 @@
 .line {
-  width: 100%;
-  display: block;
+	width: 100%;
+	height: auto;
+	display: block;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 
 .lineContainer {
-  margin: 0 auto;
-  width: 50%;
-  max-width: 180px;
-  align-self: flex-start;
-  transform: translate3d(0, 0, 0);
-}
-
-@supports (-moz-appearance: none) {
-  .lineContainer {
-    max-width: 180px;
-  }
+	align-self: flex-start;
 }
 
 .lineContainerAlignEnd {
-  align-self: flex-end;
+	align-self: flex-end;
 }
-
-.lineContainerAlignCenter {
-  align-self: center;
-}
-
 
 .linePath {
-  stroke: #07ff32;
-  stroke-width: 1px;
+	stroke: #000f02;
+	stroke-width: 3px;
 }
 
-@media screen and (min-width: 425px) {
-  .lineContainer {
-    margin: 0 clamp(50px, 20vw, 100px);
+@media screen and (min-width: 768px) {
+	.small {
+		padding-left: 5rem;
+	}
 
-    width: auto;
-    max-width: 200px;
-  }
+	.big {
+		padding-left: 9rem;
+	}
 
-  .lineContainerAlignEnd {
-    margin: 0 clamp(50px, 20vw, 60px);
-  }
+	.lineContainerAlignEnd {
+		.small {
+			padding-right: 5rem;
+		}
+
+		.big {
+			padding-right: 9rem;
+		}
+	}
 }
