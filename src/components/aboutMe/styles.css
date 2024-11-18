@@ -1,31 +1,32 @@
 .aboutMe {
-	display: flex;
-	flex-direction: column;
-	padding: 0 0.25rem;
-	gap: 0.5rem;
-	max-width: 1000px;
-	background: #25252f;
-	box-shadow: 0 0 3pt 5pt #25252f;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.25rem;
+  gap: 0.5rem;
+  max-width: 1000px;
+  background: #25252f;
+  box-shadow: 0 0 3pt 5pt #25252f;
 }
 
 .aboutMeHeader {
-	width: fit-content;
-	font-family: "Exo", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: clamp(24px, 3vw, 36px);
-	background: linear-gradient(to top left, #010101, #cf23cf, #eedd44, #07ff32);
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
+  width: fit-content;
+  font-family: "Exo", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(24px, 3vw, 36px);
+  background: linear-gradient(to top left, #010101, #cf23cf, #eedd44, #07ff32);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .aboutMeInfo {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 75%;
-	gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  gap: 1rem;
 }
 
 .aboutMeText {
-	margin: 0;
+  margin: 0;
 }
