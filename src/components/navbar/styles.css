@@ -1,39 +1,50 @@
 .navbar {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  left: 0;
-  background: #25252f;
-  z-index: 10;
-  padding: 1rem 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	left: 0;
+	background: #25252f;
+	z-index: 10;
+	padding: 1.25rem 0;
 }
 
 .headline {
-  background: linear-gradient(
-    to bottom right,
-    #7303c0,
-    #cf23cf,
-    #eedd44,
-    #07ff32
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+	background: linear-gradient(
+		to bottom right,
+		#7303c0,
+		#cf23cf,
+		#eedd44,
+		#07ff32
+	);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
 .nav-links {
-  display: flex;
-  gap: 1.5rem;
-  margin-left: 1.5rem;
+	display: flex;
+	gap: 1rem;
+	margin-left: 1rem;
 }
 
 .nav-links a {
-  text-decoration: none;
-  color: #eedd44;
+	text-decoration: none;
+	color: #eedd44;
 }
 
 .nav-links a:hover {
-  color: #cf23cf;
+	color: #cf23cf;
+}
+
+@media screen and (min-width: 768px) {
+	.navbar {
+		justify-content: flex-end;
+	}
+
+	.nav-links {
+		gap: 1.5rem;
+		margin-left: 1.5rem;
+	}
 }
