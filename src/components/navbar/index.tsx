@@ -8,11 +8,11 @@ const Navbar = () => {
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
-					href="https://www.linkedin.com/in/valeriashadrina/?locale=en_US"
+					href="https://www.linkedin.com/in/valeriashadrina/"
 				>
 					[ linkedin ]
 				</a>
-				<a href="mailto:valeriia.shadrina@hyperisland.se">[ email ]</a>
+				<a href="mailto:waleria.shadrina@icloud.com">[ email ]</a>
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
