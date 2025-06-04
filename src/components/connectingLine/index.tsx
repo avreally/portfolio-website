@@ -1,8 +1,8 @@
 import "./styles.css";
 
 type ConnectingLineProps = {
-	variant: 0 | 1 | 2 | 3;
-	containerAlignSelf: "start" | "end" | "center";
+	variant: number;
+	containerAlignSelf: string;
 };
 
 const connectingLine = ({

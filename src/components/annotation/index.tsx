@@ -1,23 +1,22 @@
 import "./styles.css";
-import { ProjectType } from "../../../types";
 
 type AnnotationProps = {
-  project: ProjectType;
-  alignSelf: "start" | "end";
+	notes: string;
+	alignSelf: string;
 };
 
-const Annotation = ({ project, alignSelf }: AnnotationProps) => {
-  const notesLength = project.notes.length;
+const Annotation = ({ notes, alignSelf }: AnnotationProps) => {
+	const notesLength = notes.length;
 
-  return (
-    <div
-      className={`annotation ${
-        alignSelf === "end" ? "annotationAlignEnd" : ""
-      } ${notesLength > 150 ? "long" : notesLength > 100 ? "medium" : "short"}`}
-    >
-      {project.notes}
-    </div>
-  );
+	return (
+		<div
+			className={`annotation ${
+				alignSelf === "end" ? "annotationAlignEnd" : ""
+			} ${notesLength > 150 ? "long" : notesLength > 100 ? "medium" : "short"}`}
+		>
+			{notes}
+		</div>
+	);
 };
 
 export default Annotation;
