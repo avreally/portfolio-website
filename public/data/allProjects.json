@@ -1,102 +1,81 @@
 [
-  {
-    "id": "01",
-    "name": "Phonebook",
-    "about": "For instance, my Phonebook project. For it I drew inspiration from an image I admired, extracted its colors and integrated them into the overall layout. With this Phonebook app, you can add names and phone numbers, perform quick search, and delete entries as needed.",
-    "imgUrl": "../images/phonebook.jpg",
-    "websiteUrl": "",
-    "githubUrl": "https://github.com/avreally/phonebook",
-    "stack": ["React", "JavaScript", "HTML", "CSS", "Flexbox"],
-    "notes": "But I also enjoy creating UI designs of different styles and color schemes."
-  },
-  {
-    "id": "02",
-    "name": "To Do List",
-    "about": "It all began with a To-Do List project. In this application, you can add and delete tasks and lists, as well as mark tasks as important and completed. All data is stored in Local Storage.",
-    "imgUrl": "../images/to-do-list.jpg",
-    "websiteUrl": "https://a-to-do-list-project.netlify.app/",
-    "githubUrl": "https://github.com/avreally/hyperisland-project-1-todo",
-    "stack": ["JavaScript", "HTML", "CSS", "Grid", "Flexbox"],
-    "notes": "You might have noticed that I love neon colors and dark themes."
-  },
-  {
-    "id": "03",
-    "name": "Music Box",
-    "about": "Take this music search app, for example. It uses Genius API to find songs and display the results. I enjoy solving complex problems and tackling challenging tasks because I believe it helps me grow professionally.",
-    "imgUrl": "../images/music-box.jpg",
-    "websiteUrl": "https://music-box-ilyu.onrender.com",
-    "githubUrl": "https://github.com/avreally/music-box",
-    "stack": [
-      "React",
-      "JavaScript",
-      "Node",
-      "Axios",
-      "Express",
-      "Heroku",
-      "Render",
-      "HTML",
-      "CSS",
-      "Flexbox"
-    ],
-    "notes": "At some point I really got into exploring fullstack and backend development. I built the backend for some of my projects and had fun deploying them to Heroku and later to Render. "
-  },
-  {
-    "id": "04",
-    "name": "Streaming App (WIP)",
-    "about": "With this app, you can log in using your GitHub account, search for music, play tracks, and even add songs to your favourites.",
-    "imgUrl": "../images/streaming-app.png",
-    "websiteUrl": "",
-    "githubUrl": "https://github.com/avreally/streaming-app",
-    "stack": [
-      "React",
-      "TypeScript",
-      "Node",
-      "Axios",
-      "Express",
-      "GitHub OAuth",
-      "MongoDB",
-      "Heroku",
-      "HTML",
-      "CSS"
-    ],
-    "notes": "I enjoy retrowave, synthwave, and electronic music. It led me to create a Streaming App project where you can listen to it."
-  },
-  {
-    "id": "05",
-    "name": "Browser game \"Escaping Duck\"",
-    "about": "I enjoy playing video games, and this game is something I created while exploring new technologies and ways to work with them, such as Circuit Playground, Python, and Three.js. <br> \nIn this game, the input volume level is measured and dynamically affects the player's speed.",
-    "imgUrl": "../images/escaping-duck.jpg",
-    "websiteUrl": "https://escapefromhyperisland.github.io/team1-chaos/escaping-duck/",
-    "githubUrl": "https://github.com/escapefromhyperisland/team1-chaos/tree/main/escaping-duck",
-    "stack": [
-      "A-Frame",
-      "Three.js",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Python",
-      "Circuit Playground"
-    ],
-    "notes": "Before that I studied Frontend Development at Hyper Island and here are some projects that I've created along the way."
-  },
-  {
-    "id": "06",
-    "name": "",
-    "about": "There I was developing UI interfaces for e-commerce projects with leading Nordic brands like Mini Rodini, Astrid Lindgren, Röhnisch, EQPE, Xlash, Stronger, and others.  <br> \nBuilt and maintained a reusable UI component library using React, TypeScript, and Tailwind. Collaborated with designers and backend developers to implement new features and enhance the user experience.",
-    "imgUrl": "../images/clients/mini.jpg",
-    "websiteUrl": "",
-    "githubUrl": "",
-    "stack": [
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Vue",
-      "CSS",
-      "SASS",
-      "Tailwind",
-      "Framer Motion",
-      "HTML"
-    ],
-    "notes": "For the past two years I've been working as a Frontend Developer at Made People in Stockholm."
-  }
+	{
+		"id": "01",
+		"name": "Phonebook",
+		"about": "For instance, my Phonebook project. For it I drew inspiration from an image I admired, extracted its colors and integrated them into the overall layout. With this Phonebook app, you can add names and phone numbers, perform quick search, and delete entries as needed.",
+		"imgUrl": "../images/phonebook.jpg",
+		"websiteUrl": "",
+		"githubUrl": "https://github.com/avreally/phonebook",
+		"stack": ["React", "JavaScript", "HTML", "CSS", "Flexbox"],
+		"notes": "But I also enjoy creating UI designs of different styles and color schemes."
+	},
+	{
+		"id": "02",
+		"name": "To Do List",
+		"about": "It all began with a To-Do List project. In this application, you can add and delete tasks and lists, as well as mark tasks as important and completed. All data is stored in Local Storage.",
+		"imgUrl": "../images/to-do-list.jpg",
+		"websiteUrl": "https://a-to-do-list-project.netlify.app/",
+		"githubUrl": "https://github.com/avreally/hyperisland-project-1-todo",
+		"stack": ["JavaScript", "HTML", "CSS", "Grid", "Flexbox"],
+		"notes": "You might have noticed that I love neon colors and dark themes."
+	},
+	{
+		"id": "03",
+		"name": "Music Box",
+		"about": "Take this music search app, for example. It uses Genius API to find songs and display the results. I enjoy solving complex problems and tackling challenging tasks because I believe it helps me grow professionally.",
+		"imgUrl": "../images/music-box.jpg",
+		"websiteUrl": "https://music-box-ilyu.onrender.com",
+		"githubUrl": "https://github.com/avreally/music-box",
+		"stack": [
+			"React",
+			"JavaScript",
+			"Node",
+			"Axios",
+			"Express",
+			"Heroku",
+			"Render",
+			"HTML",
+			"CSS",
+			"Flexbox"
+		],
+		"notes": "At some point I really got into exploring fullstack and backend development. I built the backend for some of my projects and had fun deploying them to Heroku and later to Render. "
+	},
+	{
+		"id": "04",
+		"name": "Streaming App (WIP)",
+		"about": "With this app, you can log in using your GitHub account, search for music, play tracks, and even add songs to your favourites.",
+		"imgUrl": "../images/streaming-app.png",
+		"websiteUrl": "",
+		"githubUrl": "https://github.com/avreally/streaming-app",
+		"stack": [
+			"React",
+			"TypeScript",
+			"Node",
+			"Axios",
+			"Express",
+			"GitHub OAuth",
+			"MongoDB",
+			"Heroku",
+			"HTML",
+			"CSS"
+		],
+		"notes": "I enjoy retrowave, synthwave, and electronic music. It led me to create a Streaming App project where you can listen to it."
+	},
+	{
+		"id": "05",
+		"name": "Browser game \"Escaping Duck\"",
+		"about": "I enjoy playing video games, and this game is something I created while exploring new technologies and ways to work with them, such as Circuit Playground, Python, and Three.js. <br> \nIn this game, the input volume level is measured and dynamically affects the player's speed.",
+		"imgUrl": "../images/escaping-duck.jpg",
+		"websiteUrl": "https://escapefromhyperisland.github.io/team1-chaos/escaping-duck/",
+		"githubUrl": "https://github.com/escapefromhyperisland/team1-chaos/tree/main/escaping-duck",
+		"stack": [
+			"A-Frame",
+			"Three.js",
+			"JavaScript",
+			"HTML",
+			"CSS",
+			"Python",
+			"Circuit Playground"
+		]
+	}
 ]
