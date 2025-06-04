@@ -1,7 +1,6 @@
-import React from "react";
-import Annotation from "../annotation";
-import ConnectingLine from "../connectingLine";
-import Project from "../project";
+import { Annotation } from "../Annotation/Annotation";
+import { ConnectingLine } from "../ConnectingLine/ConnectingLine";
+import { Project } from "../Project/Project";
 import { ProjectType } from "../../../types";
 
 type ProjectWrapperProps = {

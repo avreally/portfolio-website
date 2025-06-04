@@ -6,7 +6,7 @@ type AllProjectsProps = {
 	allProjectsData: ProjectType[];
 };
 
-const allProjects = ({ allProjectsData }: AllProjectsProps) => {
+export const AllProjects = ({ allProjectsData }: AllProjectsProps) => {
 	return (
 		<div className="allProjects">
 			{[...allProjectsData].reverse().map((project, index) => (
@@ -20,5 +20,3 @@ const allProjects = ({ allProjectsData }: AllProjectsProps) => {
 		</div>
 	);
 };
-
-export default allProjects;

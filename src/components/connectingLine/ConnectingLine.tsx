@@ -5,7 +5,7 @@ type ConnectingLineProps = {
 	containerAlignSelf: string;
 };
 
-const connectingLine = ({
+export const ConnectingLine = ({
 	variant,
 	containerAlignSelf,
 }: ConnectingLineProps) => {
@@ -182,5 +182,3 @@ const connectingLine = ({
 		</div>
 	);
 };
-
-export default connectingLine;

@@ -1,15 +1,15 @@
-import "./styles.css";
 import ProjectImage from "../projectImage";
 import ProjectInfo from "../projectInfo";
 import { ProjectType } from "../../../types";
 import { CSSProperties } from "react";
+import "./styles.css";
 
 type ProjectProps = {
 	project: ProjectType;
 	imageAlign: "start" | "end";
 };
 
-const Project = ({ project, imageAlign }: ProjectProps) => {
+export const Project = ({ project, imageAlign }: ProjectProps) => {
 	return (
 		<div
 			className={`project ${imageAlign === "end" ? "projectImageEnd" : ""}`}
@@ -28,5 +28,3 @@ const Project = ({ project, imageAlign }: ProjectProps) => {
 		</div>
 	);
 };
-
-export default Project;

@@ -5,7 +5,7 @@ type AnnotationProps = {
 	alignSelf: string;
 };
 
-const Annotation = ({ notes, alignSelf }: AnnotationProps) => {
+export const Annotation = ({ notes, alignSelf }: AnnotationProps) => {
 	const notesLength = notes.length;
 
 	return (
@@ -18,5 +18,3 @@ const Annotation = ({ notes, alignSelf }: AnnotationProps) => {
 		</div>
 	);
 };
-
-export default Annotation;
