@@ -1,24 +1,26 @@
 .projectImg {
-  width: 100%;
-  display: block;
-  border-radius: .1rem;
-  min-width: 0;
+	width: 100%;
+	display: block;
+	border-radius: 0.1rem;
+	min-width: 0;
 }
 
 .projectImgUrl {
-  display: block;
-  position: relative;
-  width: 100%;
+	display: block;
+	position: relative;
+	width: 100%;
 }
 
 .projectImgUrl::after {
-  content: "";
-  display: block;
-  position: absolute;
-  inset: 0;
-  border-radius: .1rem;
+	content: "";
+	display: block;
+	position: absolute;
+	inset: 0;
+	border-radius: 0.1rem;
+	border: 1px solid transparent;
 }
 
 .projectImgUrl:hover::after {
-  border: 1px solid #07ff32;
+	border: 1px solid #7303c0;
+	transition: border 0.3s;
 }

@@ -67,19 +67,15 @@
 	--myColor3: #ec38bc;
 }
 
-.mouseGradient {
-	--x: 0;
-	--y: 0;
-	background: radial-gradient(
-		circle at var(--x) var(--y),
-		rgb(40, 35, 168) 0%,
-		rgba(40, 35, 168, 0) calc(0% + 120px)
-	);
+.project:hover .stackElement {
+	border-color: #bb22bd;
+	transition: border-color 0.8s;
 }
 
 @media screen and (min-width: 768px) {
 	.project {
 		flex-direction: row;
+		padding: 1.5rem;
 	}
 
 	.projectImageEnd {
