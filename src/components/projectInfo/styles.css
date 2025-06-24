@@ -51,6 +51,7 @@
 	border: 1px solid #07ff32;
 	font-family: "Exo", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: clamp(14px, 1.5vw, 16px);
+	transition: border-color 0.8s;
 }
 
 .projectUrlsWrapper {
@@ -67,5 +68,5 @@
 }
 
 .projectUrl:hover {
-	color: #07ff32;
+	color: #cf23cf;
 }

@@ -1,0 +1,32 @@
+.annotation {
+	margin: 0;
+	background: #1b1b22;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 1rem;
+	border: 1px solid #07ff32;
+	align-self: flex-start;
+}
+
+.annotationAlignEnd {
+	align-self: flex-end;
+}
+
+.long {
+	max-width: 540px;
+}
+
+.medium {
+	max-width: 350px;
+}
+
+.short {
+	max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+	.annotation {
+		padding: 18px;
+	}
+}

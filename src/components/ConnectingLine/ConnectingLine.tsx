@@ -1,11 +1,11 @@
 import "./styles.css";
 
 type ConnectingLineProps = {
-	variant: 0 | 1 | 2 | 3;
-	containerAlignSelf: "start" | "end" | "center";
+	variant: number;
+	containerAlignSelf: string;
 };
 
-const connectingLine = ({
+export const ConnectingLine = ({
 	variant,
 	containerAlignSelf,
 }: ConnectingLineProps) => {
@@ -182,5 +182,3 @@ const connectingLine = ({
 		</div>
 	);
 };
-
-export default connectingLine;

@@ -1,28 +1,28 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import AllProjects from "./components/allProjects";
+import { AllProjects } from "./components/AllProjects/AllProjects";
 import AboutMe from "./components/aboutMe";
 import Navbar from "./components/navbar";
 
 const App = () => {
-  const [data, setData] = useState([]);
+	const [data, setData] = useState([]);
 
-  useEffect(() => {
-    getProjectData();
-  }, []);
+	useEffect(() => {
+		getProjectData();
+	}, []);
 
-  const getProjectData = async () => {
-    const allProjects = await fetch("data/allProjects.json");
-    setData(await allProjects.json());
-  };
+	const getProjectData = async () => {
+		const allProjects = await fetch("data/allProjects.json");
+		setData(await allProjects.json());
+	};
 
-  return (
-    <div className="app">
-      <Navbar />
-      <AboutMe />
-      {data !== undefined ? <AllProjects allProjectsData={data} /> : null}
-    </div>
-  );
+	return (
+		<div className="app">
+			<Navbar />
+			<AboutMe />
+			{data !== undefined ? <AllProjects allProjectsData={data} /> : null}
+		</div>
+	);
 };
 
 export default App;
