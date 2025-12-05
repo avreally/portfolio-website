@@ -2,27 +2,27 @@
 	{
 		"id": "01",
 		"name": "Phonebook",
-		"about": "For instance, my Phonebook project. For it I drew inspiration from an image I admired, extracted its colors and integrated them into the overall layout. With this Phonebook app, you can add names and phone numbers, perform quick search, and delete entries as needed.",
+		"about": "For instance, my Phonebook project. For it I drew inspiration from an image I admired, extracted its colors and integrated them into the overall layout. With this Phonebook app, you can add names and phone numbers, perform a quick search, and delete entries as needed.",
 		"imgUrl": "../images/phonebook.jpg",
 		"websiteUrl": "",
 		"githubUrl": "https://github.com/avreally/phonebook",
-		"stack": ["React", "JavaScript", "HTML", "CSS", "Flexbox"],
-		"notes": "But I also enjoy creating UI designs of different styles and color schemes."
+		"stack": ["React", "JavaScript", "HTML", "CSS"],
+		"notes": "But I also like creating UI designs of different styles and color schemes."
 	},
 	{
 		"id": "02",
 		"name": "To Do List",
-		"about": "It all began with a To-Do List project. In this application, you can add and delete tasks and lists, as well as mark tasks as important and completed. All data is stored in Local Storage.",
+		"about": "It all started with a simple To-Do List project. In this application, you can add and delete tasks and lists, as well as mark tasks as important and completed. All data is stored in Local Storage.",
 		"imgUrl": "../images/to-do-list.jpg",
 		"websiteUrl": "https://a-to-do-list-project.netlify.app/",
 		"githubUrl": "https://github.com/avreally/hyperisland-project-1-todo",
-		"stack": ["JavaScript", "HTML", "CSS", "Grid", "Flexbox"],
+		"stack": ["JavaScript", "HTML", "CSS"],
 		"notes": "You might have noticed that I love neon colors and dark themes."
 	},
 	{
 		"id": "03",
 		"name": "Music Box",
-		"about": "Take this music search app, for example. It uses Genius API to find songs and display the results. I enjoy solving complex problems and tackling challenging tasks because I believe it helps me grow professionally.",
+		"about": "Take this music search app, for example. You can look up songs, see their artist, album cover, and release date, listen to a preview, and copy a link to share your favorite tracks.",
 		"imgUrl": "../images/music-box.jpg",
 		"websiteUrl": "https://music-box-ilyu.onrender.com",
 		"githubUrl": "https://github.com/avreally/music-box",
@@ -35,15 +35,14 @@
 			"Heroku",
 			"Render",
 			"HTML",
-			"CSS",
-			"Flexbox"
+			"CSS"
 		],
-		"notes": "At some point I really got into exploring fullstack and backend development. I built the backend for some of my projects and had fun deploying them to Heroku and later to Render. "
+		"notes": "At some point I really got into exploring full-stack and backend development. I built the backend for some of my projects and had fun deploying them to Heroku and later to Render. "
 	},
 	{
 		"id": "04",
 		"name": "Streaming App (WIP)",
-		"about": "With this app, you can log in using your GitHub account, search for music, play tracks, and even add songs to your favourites.",
+		"about": "This app lets you log in with your GitHub account, listen to tracks, and manage playlists — create, edit, and delete them as you like.",
 		"imgUrl": "../images/streaming-app.png",
 		"websiteUrl": "",
 		"githubUrl": "https://github.com/avreally/streaming-app",
@@ -59,12 +58,12 @@
 			"HTML",
 			"CSS"
 		],
-		"notes": "I enjoy retrowave, synthwave, and electronic music. It led me to create a Streaming App project where you can listen to it."
+		"notes": "I like retrowave, synthwave, and electronic music, which led me to create a Streaming App project where you can listen to it."
 	},
 	{
 		"id": "05",
 		"name": "Browser game \"Escaping Duck\"",
-		"about": "I enjoy playing video games, and this game is something I created while exploring new technologies and ways to work with them, such as Circuit Playground, Python, and Three.js. <br> \nIn this game, the input volume level is measured and dynamically affects the player's speed.",
+		"about": "A browser game where you play as a duck racing forward, dodging obstacles, collecting bonuses, and gathering the letters \"HYPER\" to escape. The fun twist: your microphone input affects your speed, so you can literally shout your way forward.",
 		"imgUrl": "../images/escaping-duck.jpg",
 		"websiteUrl": "https://escapefromhyperisland.github.io/team1-chaos/escaping-duck/",
 		"githubUrl": "https://github.com/escapefromhyperisland/team1-chaos/tree/main/escaping-duck",
@@ -76,6 +75,18 @@
 			"CSS",
 			"Python",
 			"Circuit Playground"
-		]
+		],
+
+		"notes": "I love playing video games, and this project was my chance to experiment with new technologies."
+	},
+	{
+		"id": "06",
+		"name": "Pixel Art Board",
+		"about": "Users can choose a canvas size and paint using different color palettes or a custom color picker. They can also upload an image to paint over, and download their artwork as a PNG.",
+		"imgUrl": "../images/pixel-art-board.webp",
+		"websiteUrl": "https://pixel-art-board-avreally.vercel.app",
+		"githubUrl": "https://github.com/avreally/pixel-art-board",
+		"stack": ["React", "TypeScript", "Next", "CSS modules", "Vercel"],
+		"notes": "One of the recent projects I made is a pixel drawing app built with Next.js and React."
 	}
 ]
